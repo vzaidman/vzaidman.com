@@ -1,0 +1,57 @@
+html, head, body, ul, li, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+summary {
+  cursor: pointer;
+}
+
+html, head, body {
+  min-width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  font-family: Helvetica;
+}
+
+.header {
+  background-color: #fefefe;
+  text-align: center;
+  padding: 0.25em;
+}
+
+.main-heading {
+  padding-top: 0.25em;
+}
+
+.sections {
+  flex: 1;
+  display: flex;
+}
+
+.section {
+  padding: 1em;
+}
+
+.list {
+  padding-left: 0.75em;
+}
+
+.projects {
+  background-color: #efffff;
+  flex: 3;
+}
+
+.articles {
+  background-color: #dcbedc;
+  flex: 4;
+}
+
+.footer {
+
+}
