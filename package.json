@@ -1,0 +1,18 @@
+{
+  "name": "vzaidman.com",
+  "version": "1.0.0",
+  "description": "Vitali Zaidman's Official Website",
+  "scripts": {
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzaidman/vzaidman.com.git"
+  },
+  "author": "Vitali Zaidman <vzaidman@gmail.com> (https://github.com/vzaidman)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vzaidman/vzaidman.com/issues"
+  },
+  "homepage": "https://github.com/vzaidman/vzaidman.com#readme"
+}

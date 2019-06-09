@@ -29,6 +29,10 @@ body {
   padding-top: 0.25em;
 }
 
+.sub-heading {
+
+}
+
 .sections {
   flex: 1;
   display: flex;
@@ -40,6 +44,10 @@ body {
 
 .list {
   padding-left: 0.75em;
+}
+
+.project-list-item {
+
 }
 
 .projects {
