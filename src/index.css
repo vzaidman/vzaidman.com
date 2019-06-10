@@ -33,6 +33,10 @@ body {
 
 }
 
+.links {
+
+}
+
 .sections {
   flex: 1;
   display: flex;
@@ -54,8 +58,4 @@ body {
 .articles {
   background-color: #dcbedc;
   flex: 4;
-}
-
-.footer {
-
 }
