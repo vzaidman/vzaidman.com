@@ -6,6 +6,7 @@ module.exports = ({htmlContent, listItemsData, templateName, listItemTemplate}) 
 	const generatedTemplateContent = listItemsData
 		.map(listItem => {
 			return Object.entries(listItem).reduce((result, [listItemName, listItemContent]) => {
+				listItemContent = Array.isArray(listItemContent) ? listItemContent.join(' ') : listItemContent
 				return result.split(`{{${listItemName}}}`).join(listItemContent)
 			}, listItemTemplate)
 		})

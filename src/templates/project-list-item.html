@@ -1,45 +1,36 @@
-<li class="project-list-item">
+<li>
   
-  <a class="project-url" href="{{url}}" target="_blank" rel="nofollow nofollow">
-	<h3 class="project-name">
+  <a href="{{url}}" target="_blank" rel="nofollow nofollow">
+	<h3>
 	  {{name}}
 	</h3>
   </a>
   
   <p>
-	<time class="project-year" datetime="{{start-year}}">
+	{{description}}
+  </p>
+  
+  <p>
+	<time datetime="{{start-year}}">
 	  {{start-year}}
 	</time>
 	-
-	<time class="project-year" datetime="{{end-year}}">
+	<time datetime="{{end-year}}">
 	  {{end-year}}
 	</time>
   </p>
   
   <details>
-	<summary class="project-description-short">
-	  {{description-short}}
-	</summary>
-	<p class="project-description-long">
-	  {{description-long}}
-	</p>
-  </details>
-  
-  <details>
-	<summary class="project-role-short">
+	<summary>
 	  {{role-short}}
 	</summary>
-	<p class="project-role-long">
+	<p>
 	  {{role-long}}
 	</p>
   </details>
   
-  <details>
-	<summary class="project-experience-short">
-	  {{experience-short}}
-	</summary>
-	<p class="project-experience-long">
-	  {{experience-long}}
-	</p>
-  </details>
+  <p>
+	{{experience}}
+  </p>
+  
 </li>
