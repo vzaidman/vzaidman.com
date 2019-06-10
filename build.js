@@ -21,6 +21,8 @@ html = require('./build/process-list-template')({
 	listItemTemplate: publicationListItemTemplate
 })
 
+html = require('./build/convert-png-images-to-base-64.js')(html)
+
 const css = fs.readFileSync('./src/index.css').toString()
 html = require('./build/process-css')({
 	htmlContent: html,
