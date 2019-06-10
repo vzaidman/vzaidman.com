@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "Vitali Zaidman's Official Website",
   "scripts": {
-    "build": "node build"
+    "build": "node build",
+    "build:watch": "cross-env NODE_ENV=development nodemon build --watch * --ext * --ignore dist",
+    "serve:watch": "live-server dist/index.html",
+    "watch": "concurrently --kill-others \"npm run build:watch\" \"npm run serve:watch\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0",
+    "live-server": "^1.2.1",
+    "nodemon": "^1.19.1"
   },
   "repository": {
     "type": "git",

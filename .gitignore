@@ -1,3 +1,6 @@
+# external packages
+node_modules
+
 # webstorm
 .idea
 

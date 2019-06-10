@@ -1,16 +1,20 @@
-<li>
-  
-  <a href="{{url}}" target="_blank" rel="nofollow nofollow">
-	<h3>
+<li class="list-item">
+ 
+  <h3 class="list-item-name list-item-project-name">
+	<a href="{{url}}" target="_blank" rel="nofollow nofollow">
 	  {{name}}
-	</h3>
-  </a>
+	</a>
+  </h3>
   
-  <p>
+  <p class="list-item-description">
 	{{description}}
   </p>
   
-  <p>
+  <p class="list-item-role-short">
+	{{role-short}}
+  </p>
+  
+  <p class="list-item-date">
 	<time datetime="{{start-year}}">
 	  {{start-year}}
 	</time>
@@ -20,16 +24,11 @@
 	</time>
   </p>
   
-  <details>
-	<summary>
-	  {{role-short}}
-	</summary>
-	<p>
-	  {{role-long}}
-	</p>
-  </details>
+  <p class="list-item-role">
+	{{role-long}}
+  </p>
   
-  <p>
+  <p class="list-item-skills">
 	{{experience}}
   </p>
   

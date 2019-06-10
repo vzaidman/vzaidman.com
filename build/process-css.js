@@ -15,20 +15,15 @@ module.exports = ({htmlContent, cssContent}) => {
 	const classNamesMapping = {}
 	const classNamesInUse = []
 
-	cssContent = cssContent.replace(/\.([^.]*?)\{/g, (match, classNames) => {
-		const newClassNames = classNames
-			.split(/\s/)
-			.map(className => {
-				if (classNamesMapping[className]) {
-					return classNamesMapping[className]
-				}
+	cssContent = cssContent.replace(/\.[^}]*?\{/g, classNames => {
+		return classNames.replace(/[a-z-]+/g, className => {
+			classNamesMapping[className] = (
+				classNamesMapping[className] ||
+				`c${currentClassName ++ }`
+			)
 
-				const newClassName = `c${currentClassName++}`
-				classNamesMapping[className] = newClassName
-				return newClassName
-			})
-
-		return `.${newClassNames.join(' ')}{`
+			return classNamesMapping[className]
+		})
 	})
 
 	htmlContent = htmlContent.replace('{{inline-style}}', `<style>${cssContent}</style>`)
@@ -44,7 +39,12 @@ module.exports = ({htmlContent, cssContent}) => {
 			})
 			.join(' ')
 
-		return `class="${newClassNames}"`
+		const devClassNames = (
+			process.env.NODE_ENV === 'development' ?
+				` orig-class="${classNames}"` : ''
+		)
+
+		return `class="${newClassNames}"${devClassNames}`
 	})
 
 	Object.keys(classNamesMapping).forEach(className => {

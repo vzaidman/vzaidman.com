@@ -2,10 +2,10 @@
   {
     "name": "WellDone Software Solutions",
     "url": "https://www.welldone-software.com/",
-    "description": "A software solutions, development and tutoring company",
+    "description": "A software solutions, development and tutoring company.",
     "start-year": "2012",
     "end-year": "{{currentYear}}",
-    "experience": "Management, SCRUM, Git, SEO, JavaScript, Node.js, React, Angular, Docker, iOS, Android, Windows Phone",
+    "experience": " • Management • SCRUM • Git • SEO • JavaScript • Node.js • React • Angular • Docker • iOS • Android • Windows Phone • ",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "For 4 years, up until the year <time datetime='2016'>2016</time>,",
@@ -22,7 +22,7 @@
     "description": "Cloud-based software for creating animated presentations.",
     "start-year": "2016",
     "end-year": "{{currentYear}}",
-    "experience": "Management, Agile, Git, Git flow, AWS, React, Redux, Docker, BitBucket Pipelines, TestCafe + Jest Testing",
+    "experience": " • Management • Agile • Git • Git flow • AWS • React • Redux • Docker • BitBucket Pipelines • TestCafe + Jest Testing • ",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "I was the first developer in re-building the application in it's HTML5-React-Redux version (migrating from a full flash site)",
@@ -38,7 +38,7 @@
     "description": "The biggest Israeli restaurant payment clearing and food ordering company.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
-    "experience": "SEO, Management, Agile, Git, Next.js, React, Redux, Docker, Cypress Testing",
+    "experience": " • SEO • Management • Agile • Git • Next.js • React • Redux • Docker • Cypress Testing • ",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "I was responsible for re-building the 10bis website from scratch. We did it in a very short time",
@@ -53,7 +53,7 @@
     "description": "A London based company providing small easy businesses with an easy, low-cost way to get online.",
     "start-year": "2017",
     "end-year": "2018",
-    "experience": "SEO, Management, Agile, Git, Next.js, React, Redux",
+    "experience": " • SEO • Management • Agile • Git • Next.js • React • Redux • ",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "I was responsible for creating the very performance and SEO oriented website with a team of 5 people,",
@@ -66,7 +66,7 @@
     "description": "User experience tools for intelligent email and Office365/SharePoint management.",
     "start-year": "2013",
     "end-year": "2016",
-    "experience": "Agile, Web Services, Git, React, Redux, Sencha, Mobile Devices, Microsoft Plugins, SharePoint, work with various API's like Facebook, SalesForce, and Zendesk.",
+    "experience": " • Agile • Web Services • Git • React • Redux • Sencha • Mobile Devices • Microsoft Plugins • SharePoint • various API's like Facebook, SalesForce, and Zendesk • ",
     "role-short": "Full-Stack Developer",
     "role-long": [
       "In these very intense 3 year period, I got to work on many of harmon.ie's products, on the web",

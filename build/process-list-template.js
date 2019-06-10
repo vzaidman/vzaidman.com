@@ -14,6 +14,6 @@ module.exports = ({htmlContent, listItemsData, templateName, listItemTemplate}) 
 
 	return htmlContent
 		.replace(`{{${templateName}}}`, generatedTemplateContent)
-		.replace('{{currentYear}}', new Date().getFullYear())
-		.replace('{{currentYear}}', 'present')
+		.replace(/datetime="\{\{currentYear\}\}"/g, `datetime="${new Date().getFullYear()}"`)
+		.replace(/\{\{currentYear\}\}/g, 'present')
 }
