@@ -4,7 +4,13 @@ let currentClassName = 0
 
 module.exports = ({htmlContent, cssContent}) => {
 	// remove whitespaces
-	cssContent = cssContent.replace(/\s/g, '')
+	cssContent = cssContent
+		.replace(/,\s*/g, ',')  // between class names separated with , {
+		.replace(/\s*\{/g, '{') // between class name and {
+		.replace(/\{\s*/g, '{') // between class { and class content start
+		.replace(/:\s*/g, ':')  // between attribute: and attribute value
+		.replace(/;\s*/g, ';')  // between prev attribute; and next attribute
+		.replace(/\}\s*/g, '}') // between end of class and next class
 
 	const classNamesMapping = {}
 	const classNamesInUse = []
