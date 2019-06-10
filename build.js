@@ -18,12 +18,4 @@ html = require('./build/process-css')({
 	cssContent: css
 })
 
-console.log(html)
-
-return
-
-fs.readdirSync('./build').forEach(buildFile => {
-	console.log(templateName)
-})
-
-html = applyTemplates(html)
+fs.writeFileSync('./dist/index.html', html)

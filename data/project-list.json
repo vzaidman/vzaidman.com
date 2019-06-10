@@ -6,28 +6,22 @@
     "end-year": "{{currentYear}}",
     "description-short": "A software solution company",
     "description-long": [
-      "A web software solutions, development, and training company.",
+      "A web software solutions, development, and tutoring company.",
       "<br/>",
-      "The experts of Welldone usually join teams to lunch/ re-lunch/ fix",
-      "their website or a hard project within it,",
-      "while training the team in terms of technical knowledge,",
-      "work ethics, team culture, work processes and",
-      "short, medium, and long term result bringing."
+      "The experts of WellDone join teams to build / re-build products",
+      "while training the native teams in technical knowledge,",
+      "work ethics, team culture"
     ],
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
-      "I've been working very intensively from the very start of my work in the company,",
-      "almost without any vocations and pauses.",
-      "<br/>",
       "For 4 years, up until the year <time datetime='2016'>2016</time>,",
       "I worked as a web and mobile ninja, solving various problems and creating",
       "various products.",
       "<br/>",
-      "Since <time datetime='2016'>2016</time> I'm a Tech-Lead in various companies",
-      "the company involved with. I'm responsible for the communications and satisfaction",
-      "of our customers, and for the service we provide them."
+      "Since <time datetime='2016'>2016</time> I'm a responsible for a several",
+      "projects as a Tech Lead, Team Leader."
     ],
-    "experience-short": "JavaScript, Node.js, React, Angular, Docker, iOS, Android, Windows Phone",
+    "experience-short": "Management, Agile, Git, Git flow, JavaScript, Node.js, React, Angular, Docker, iOS, Android, Windows Phone",
     "experience-long": [
       "I got to work with many technologies throughout my time in the project."
     ]

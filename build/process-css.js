@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-let currentClassNameCharCode = 97
+let currentClassName = 0
 
 module.exports = ({htmlContent, cssContent}) => {
 	// remove whitespaces
@@ -9,10 +9,20 @@ module.exports = ({htmlContent, cssContent}) => {
 	const classNamesMapping = {}
 	const classNamesInUse = []
 
-	cssContent = cssContent.replace(/\.([^.]*?)\{/g, (match, className) => {
-		const currentClassName = String.fromCharCode(currentClassNameCharCode++)
-		classNamesMapping[className] = currentClassName
-		return `.${currentClassName}{`
+	cssContent = cssContent.replace(/\.([^.]*?)\{/g, (match, classNames) => {
+		const newClassNames = classNames
+			.split(/\s/)
+			.map(className => {
+				if (classNamesMapping[className]) {
+					return classNamesMapping[className]
+				}
+
+				const newClassName = `c${currentClassName++}`
+				classNamesMapping[className] = newClassName
+				return newClassName
+			})
+
+		return `.${newClassNames.join(' ')}{`
 	})
 
 	htmlContent = htmlContent.replace('{{inline-style}}', `<style>${cssContent}</style>`)
