@@ -1,0 +1,92 @@
+[
+  {
+    "name": "How To Keep Track of Your Pinned NPM Packages?",
+    "url": "https://medium.com/welldone-software/how-to-keep-track-of-your-pinned-npm-packages-7a006a014e0c",
+    "description": "How to document/comment why package.json packages are pinned to specific versions? How to enforce no one accidentally updates them?",
+    "date": "Apr 14, 2019"
+  },
+  {
+    "name": "Track React-Redux Redundant Re-Renders With “Why Did You Render” Version 3",
+    "url": "https://medium.com/welldone-software/track-react-redux-redundant-re-renders-with-why-did-you-render-version-3-9f31f2797057",
+    "description": "@welldone-software/why-did-you-render@^3 tracks redundant Hooks re-renders + React-Redux@^7 uses hooks = Great way to track React-Redux redundant re-renders!",
+    "date": "Apr 13, 2019"
+  },
+  {
+    "name": "Track Redundant React Hooks Re-Renders With “Why Did You Render” Version 3",
+    "url": "https://medium.com/welldone-software/track-redundant-re-renders-that-caused-by-hooks-with-why-did-you-render-version-3-504468deb653",
+    "description": "@welldone-software/why-did-you-render version 3 is released with many features, including tracking of React hooks issues.",
+    "date": "Apr 5, 2019"
+  },
+  {
+    "name": "An Overview of JavaScript Testing in 2019",
+    "url": "https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a",
+    "description": "The web has evolved, and yes- Testing has too.",
+    "date": "Feb 18, 2019"
+  },
+  {
+    "name": "Beware of Missuses of CSS-in-JS",
+    "url": "https://medium.com/welldone-software/beware-of-missuses-of-css-in-js-1d6c45d7a5d8",
+    "description": "A common, hard-to-find, issue I’d like to share with you.",
+    "date": "Jan 14, 2019"
+  },
+  {
+    "name": "Why Did You Render Mr. Big Pure React Component Part 2- Common Fixing Scenarios",
+    "url": "https://medium.com/welldone-software/why-did-you-render-mr-big-pure-react-component-part-2-common-fixing-scenarios-667bfdec2e0f",
+    "description": "What to do with the many console logs you are probably about to receive when you start using @welldone-software/why-did-you-render?",
+    "date": "Nov 19, 2018"
+  },
+  {
+    "name": "Why Did You Render Mr. Big Pure React Component???",
+    "url": "https://medium.com/welldone-software/why-did-you-render-mr-big-pure-react-component-2a36dd86996f",
+    "description": "Tracking unnecessary React component re-renders using the @welldone-software/why-did-you-render library.",
+    "date": "Nov 19, 2018"
+  },
+  {
+    "name": "The Open Source Community- The Great Spontaneous Distributed Collective Effort",
+    "url": "https://medium.com/welldone-software/the-open-source-community-the-great-spontaneous-distributed-collective-effort-e5cbe19df501",
+    "description": "How to use complete strangers for your own benefit while making their own life better and even contributing to humanity?",
+    "date": "Jul 25, 2018"
+  },
+  {
+    "name": "An Overview of JavaScript Testing in 2018",
+    "url": "https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3",
+    "description": "TL;DR; Use Jest for unit and integration tests and TestCafe for UI tests.",
+    "date": "Feb 9, 2018"
+  },
+  {
+    "name": "redux-toolbelt: Supercharge Your Redux",
+    "url": "https://medium.com/welldone-software/redux-toolbelt-supercharge-your-redux-ec16e704fe93",
+    "description": "10x less code, 10x more redux power - part 2 - the basics.",
+    "date": "Feb 3, 2018"
+  },
+  {
+    "name": "An Overview of Developer Tools for Windows",
+    "url": "https://medium.com/welldone-software/an-overview-of-developer-tools-for-windows-2660054a491b",
+    "description": "An overview of tools that will help you program faster and become a code summoning wizard.",
+    "date": "Jul 28, 2017"
+  },
+  {
+    "name": "Clever Library Wrapping",
+    "url": "https://medium.com/welldone-software/clever-library-wrapping-3a5621bfd82e",
+    "description": "A Small Tip That Will Save You a Lot of Time, Bugs, and Rage.",
+    "date": "Apr 21, 2017"
+  },
+  {
+    "name": "An Overview of JavaScript Testing in 2017",
+    "url": "https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a",
+    "description": "This short guide is intended to catch you up with the most important reasoning, terms, tools, and approaches to JavaScript testing.",
+    "date": "Apr 19, 2017"
+  },
+  {
+    "name": "How to Get Into the Web Development Field?",
+    "url": "https://medium.com/welldone-software/how-to-get-into-the-web-development-field-c21f270fa1c1",
+    "description": "tl;dr build a website and understand as much as you can about it. Here is a suggestion for something you can begin with.",
+    "date": "Mar 3, 2017"
+  },
+  {
+    "name": "How Can Aspiring Programmers Improve Their Chances to Find a Good Job?",
+    "url": "https://medium.com/welldone-software/how-can-aspiring-programmers-improve-their-chances-to-find-a-good-job-ca644e3c30b3",
+    "description": "Two weeks of self-study are enough to give an aspiring programmer an edge over others competing for the same job.",
+    "date": "Mar 3, 2017"
+  }
+]
