@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Vitali Zaidman's Personal Website",
+    "description": "Vitali Zaidman is an Open Source Maintainer and Enthusiast, Web expert, Tech-Lead, Blogger, and Researcher.",
+    "url": "https://vzaidman.com/",
+    "imageUrl": "vzaidman.png",
+    "imageWidth": "144px",
+    "imageHeight": "144px",
+    "imageMime": "image/png",
+    "imageAlt": "the image of Vitali Zaidman",
+    "twitterUserName": "vzaidman",
+    "firstName": "Vitali",
+    "lastName": "Zaidman",
+    "fullName": "Vitali Zaidman",
+    "email": "vzaidman@gmail.com",
+    "facebookUserName": "vzaidman",
+    "gender": "male"
+  }
+]

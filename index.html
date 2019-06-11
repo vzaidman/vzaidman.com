@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <title>Vitali Zaidman's Personal WebSite</title>
+  {{seo-tags}}
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   {{inline-style}}
   <script>
-	window.openAll=()=>document.querySelectorAll('details').forEach(e=>e.open=!e.open)
+	window.onload = () => document.getElementById('current-year').innerHTML = new Date().getFullYear()
   </script>
 </head>
 <body>
   <div class="site-container">
 	<header class="header">
 	  <img
-		src="profile-pic.png"
+		src="vzaidman.png"
 		alt="the image of Vitali Zaidman"
 	  />
 	  <div>
@@ -28,32 +29,32 @@
 	  </div>
 	  <ul class="social-media-links">
 		<li>
-		  <a href="https://github.com/vzaidman" target="_blank" rel="nofollow nofollow">
+		  <a href="https://github.com/vzaidman" target="_blank" rel="noopener">
 			<img src="social-media-icons/github.png" alt="go to Vitali's github account"/>
 		  </a>
 		</li>
 		<li>
-		  <a href="https://medium.com/@vzaidman" target="_blank" rel="nofollow nofollow">
+		  <a href="https://medium.com/@vzaidman" target="_blank" rel="noopener">
 			<img src="social-media-icons/medium.png" alt="go to Vitali's github account"/>
 		  </a>
 		</li>
 		<li>
-		  <a href="https://twitter.com/vzaidman" target="_blank" rel="nofollow nofollow">
+		  <a href="https://twitter.com/vzaidman" target="_blank" rel="noopener">
 			<img src="social-media-icons/twitter.png" alt="go to Vitali's twitter account"/>
 		  </a>
 		</li>
 		<li>
-		  <a href="https://www.linkedin.com/in/vzaidman" target="_blank" rel="nofollow nofollow">
+		  <a href="https://www.linkedin.com/in/vzaidman" target="_blank" rel="noopener">
 			<img src="social-media-icons/linkedin.png" alt="go to Vitali's linkedin account"/>
 		  </a>
 		</li>
 		<li>
-		  <a href="https://facebook.com/vzaidman" target="_blank" rel="nofollow nofollow">
+		  <a href="https://facebook.com/vzaidman" target="_blank" rel="noopener">
 			<img src="social-media-icons/facebook.png" alt="go to Vitali's facebook account"/>
 		  </a>
 		</li>
 		<li>
-		  <a href="mailto:vzaidman@gmail.com" target="_blank" rel="nofollow nofollow">
+		  <a href="mailto:vzaidman@gmail.com" target="_blank" rel="noopener">
 			<img src="social-media-icons/email.png" alt="send Vitali an email"/>
 		  </a>
 		</li>
@@ -101,9 +102,9 @@
 	</section>
 	<footer class="footer">
 	  Copyright ©&nbsp;
-	  <script type="text/javascript">
-		document.write(new Date().getFullYear())
-	  </script>
+	  <span id="current-year">
+		2019
+	  </span>
 	  &nbsp;Vitali Zaidman
 	</footer>
   </div>
