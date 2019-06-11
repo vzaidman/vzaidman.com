@@ -6,7 +6,8 @@
     "build": "node build",
     "build:watch": "cross-env NODE_ENV=development nodemon build --watch * --ext * --ignore dist",
     "serve:watch": "live-server dist",
-    "watch": "concurrently --kill-others \"npm run build:watch\" \"npm run serve:watch\""
+    "watch": "concurrently --kill-others \"npm run build:watch\" \"npm run serve:watch\"",
+    "now-build": "npm run build"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
