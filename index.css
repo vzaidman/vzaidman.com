@@ -45,6 +45,14 @@ br {
   padding-bottom: 1.5em;
 }
 
+.download-cv {
+  width: 100%;
+  margin-top: 0.5em;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+  background-color: #fafafa;
+}
+
 .main-heading {
   margin-top: 0.5em;
 }
@@ -173,14 +181,18 @@ br {
   font-style: italic;
 }
 
-@media only screen and (min-width: 600px) {
+@media print, (min-width: 600px) {
+  .header {
+    padding-bottom: 1em;
+  }
+  
   .social-media-links {
 	flex-direction: column;
     align-items: flex-start;
     width: 30em;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2em;
+    padding-left: 2.5em;
     flex-wrap: wrap;
     height: 6em;
   }
@@ -201,6 +213,7 @@ br {
   
   .social-media-image {
     height: 1.5em;
+    padding-right: 0.5em;
   }
 }
 
