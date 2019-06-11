@@ -11,6 +11,7 @@
   "devDependencies": {
     "concurrently": "^4.1.0",
     "cross-env": "^5.2.0",
+    "html-pdf-chrome": "^0.5.0",
     "live-server": "^1.2.1",
     "nodemon": "^1.19.1"
   },

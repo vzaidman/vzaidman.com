@@ -25,3 +25,5 @@ html = require('./build/compress-html')(html)
 require('./build/create-robots-txt.js')()
 
 fs.writeFileSync('dist/index.html', html)
+
+require('./build/create-pdf-file.js')(html)
