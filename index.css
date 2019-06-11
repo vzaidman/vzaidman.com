@@ -60,6 +60,14 @@ br {
   list-style-type: none;
 }
 
+.social-media-item {
+  padding: 0.25em;
+}
+
+.social-media-item-description {
+  display: none;
+}
+
 .section {
   padding: 1em 1em 0.1em 1em;
 }
@@ -167,7 +175,32 @@ br {
 
 @media only screen and (min-width: 600px) {
   .social-media-links {
-	width: 100%;
+	flex-direction: column;
+    align-items: flex-start;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    flex-wrap: wrap;
+    height: 6em;
+  }
+  
+  .social-media-item {
+    padding: 0.25em;
+    font-size: 0.9em;
+  }
+  
+  .social-media-item-description {
+    display: inherit;
+  }
+  
+  .social-media-item-inner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media-image {
+    height: 1.5em;
   }
 }
 

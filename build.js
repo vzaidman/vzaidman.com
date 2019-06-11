@@ -1,7 +1,10 @@
 const fs = require('fs')
-const processCss = require('./build/process-css')
+
+require('./build/copy-assets')()
 
 let html = fs.readFileSync('index.html').toString()
+
+html = require('./build/process-list-template')('social-media-link-item')('social-media-profiles-list')(html)
 
 html = require('./build/process-list-template')('seo-tags')('seo-tags')(html)
 
