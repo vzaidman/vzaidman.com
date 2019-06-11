@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-let currentClassName = 0
+let currentClassNameCount = 0
 
 module.exports = ({htmlContent, cssContent}) => {
 	// remove whitespaces
@@ -15,15 +15,33 @@ module.exports = ({htmlContent, cssContent}) => {
 	const classNamesMapping = {}
 	const classNamesInUse = []
 
-	cssContent = cssContent.replace(/\.[^}]*?\{/g, classNames => {
-		return classNames.replace(/[a-z-]+/g, className => {
-			classNamesMapping[className] = (
-				classNamesMapping[className] ||
-				`c${currentClassName ++ }`
-			)
+	cssContent = cssContent.replace(/\.[^}]*?\{/g, cssSelector => {
+		return cssSelector
+			.split(',')
+			.map(c0 => {
+				return c0.split(' ')
+					.map(c1 => {
+						return c1
+							.split('.')
+							.map(cssSelectorPart => {
+								const classNameMatch = cssSelectorPart.match(/[a-z-]+/)
+								const className = classNameMatch && classNameMatch[0]
+								if (!className) {
+									return cssSelectorPart
+								}
 
-			return classNamesMapping[className]
-		})
+								classNamesMapping[className] = (
+									classNamesMapping[className] ||
+									`c${currentClassNameCount ++ }`
+								)
+
+								return cssSelectorPart.replace(className, classNamesMapping[className])
+							})
+							.join('.')
+					})
+					.join(' ')
+			})
+			.join(',')
 	})
 
 	htmlContent = htmlContent.replace('{{inline-style}}', `<style>${cssContent}</style>`)

@@ -68,8 +68,12 @@ br {
   list-style-type: none;
 }
 
-.section {
+.list-wrapper {
   padding: 1em;
+}
+
+.list-wrapper:nth-child(odd) {
+  background-color: #f8f8f8;
 }
 
 .list-title {
@@ -137,14 +141,6 @@ br {
   border: 1px solid #ccc;
   padding: 0.5em;
   line-height: 1.5em;
-}
-
-.projects {
-  background-color: #f8f8f8;
-}
-
-.articles {
-
 }
 
 @media only screen and (min-width: 600px) {
