@@ -1,0 +1,44 @@
+[
+  {
+    "name": "vzaidman.com",
+    "url": "https://github.com/vzaidman/vzaidman.com",
+    "description": [
+      "This site is built with an open source project that is written with vanilla js.<br/>",
+      "It allows developers to compile a full HTML website of a tiny size"
+    ],
+    "date": "Apr 12, 2019"
+  },
+  {
+    "name": "React-Redux",
+    "url": "https://github.com/reduxjs/react-redux/pull/1234",
+    "description": "A small but important performance fix in the early stage of react-redux migration to React hooks",
+    "date": "Apr 12, 2019"
+  },
+  {
+    "name": "Why Did You Render",
+    "url": "https://github.com/welldone-software/why-did-you-render",
+    "description": "why-did-you-render monkey patches React to notify you about avoidable re-renders.<br/>(Works with React Native as well.)",
+    "date": "Apr 29, 2018"
+  },
+  {
+    "name": "memoize-last-for-key",
+    "url": "https://github.com/PowToon/memoize-last-for-key",
+    "description": "Creates a function that caches the last result of arguments, by key calculated from the arguments.",
+    "date": "Jun 19, 2017"
+  },
+  {
+    "name": "xml-fix-loader",
+    "url": "https://github.com/PowToon/xml-fix-loader",
+    "description": [
+      "A webpack loader canonizing xml files, fixing issues like unquoted attributes:<br/>",
+      "&lt;div width=100px /&gt;&nbsp;&nbsp;=>&nbsp;&nbsp;&lt;div width=\"100px\"/&gt;"
+    ],
+    "date": "Mar 8, 2017"
+  },
+  {
+    "name": "FileListPlugin",
+    "url": "https://github.com/PowToon/file-list-plugin",
+    "description": "A webpack plugin to list all deployed files.",
+    "date": "Feb 26, 2017"
+  }
+]

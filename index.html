@@ -12,13 +12,11 @@
 <body>
   <div class="site-container">
 	<header class="header">
-	  <div class="hero-image">
-		<img
-		  src="profile-pic.png"
-		  alt="the image of Vitali Zaidman"
-		/>
-	  </div>
-	  <div class="headings">
+	  <img
+		src="profile-pic.png"
+		alt="the image of Vitali Zaidman"
+	  />
+	  <div>
 		<h1 class="main-heading">
 		  Vitali Zaidman
 		</h1>
@@ -61,7 +59,7 @@
 		</li>
 	  </ul>
 	</header>
-	<section class="list-wrapper">
+	<section class="section">
 	  <h2 class="list-title">
 		Projects
 	  </h2>
@@ -69,23 +67,31 @@
 		{{project-list}}
 	  </ul>
 	</section>
-	<section class="list-wrapper">
+	<section class="section">
 	  <h2 class="list-title">
-		Lectures
+		Meetup Videos
 	  </h2>
 	  <ul class="list">
-		{{publication-list}}
+		{{meetup-video-list}}
 	  </ul>
 	</section>
-	<section class="list-wrapper">
+	<section class="section">
 	  <h2 class="list-title">
 		Podcasts
 	  </h2>
 	  <ul class="list">
-		{{publication-list}}
+		{{podcast-list}}
 	  </ul>
 	</section>
-	<section class="list-wrapper">
+	<section class="section">
+	  <h2 class="list-title">
+		Open Source
+	  </h2>
+	  <ul class="list">
+		{{open-source-projects}}
+	  </ul>
+	</section>
+	<section class="section">
 	  <h2 class="list-title">
 		Publications
 	  </h2>
@@ -93,6 +99,11 @@
 		{{publication-list}}
 	  </ul>
 	</section>
+	<footer class="footer">
+	  <a href="" target="_blank">
+		This site is built with an open source library I created
+	  </a>
+	</footer>
   </div>
 </body>
 </html>

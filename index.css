@@ -36,21 +36,13 @@ br {
   position: relative;
   max-width: 700px;
   margin: 0 auto;
-  padding: 2em 1em;
+  padding: 2em 1em 0;
 }
 
 .header {
   background-color: #fefefe;
   text-align: center;
   padding-bottom: 1.5em;
-}
-
-.hero-image {
-
-}
-
-.headings {
-
 }
 
 .main-heading {
@@ -68,11 +60,11 @@ br {
   list-style-type: none;
 }
 
-.list-wrapper {
-  padding: 1em;
+.section {
+  padding: 1em 1em 0.1em 1em;
 }
 
-.list-wrapper:nth-child(odd) {
+.section:nth-child(even) {
   background-color: #f8f8f8;
 }
 
@@ -89,25 +81,37 @@ br {
 }
 
 .list-item {
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
 }
 
 .list-item-name {
   line-height: 125%;
+  font-size: 1.25em;
+  border-bottom: 1px solid #ddd;
+  display: inline;
 }
 
-.list-item-project-name {
+.project-list .list-item-name {
+  display: inherit;
   font-size: 1.5em;
   color: #009fff;
-  border-bottom: 1px solid #ccc;
   margin-bottom: 0.25em;
 }
 
-.list-item-publication-name {
-  font-size: 1.25em;
-  border-bottom: 1px solid #ddd;
+.meetup-video-list .list-item-name {
+  color: #e00;
+}
+
+.podcast-list .list-item-name {
+  color: #c700ad;
+}
+
+.publication-list .list-item-name {
   color: #228040;
-  display: inline;
+}
+
+.open-source-projects .list-item-name {
+  color: #6d6d6d;
 }
 
 .list-item-date {
@@ -118,7 +122,6 @@ br {
 .list-item-description {
   margin: 0.25em 0;
   font-size: 0.9em;
-  
 }
 
 .list-item-role-short {
@@ -132,15 +135,32 @@ br {
   font-size: 0.9em;
 }
 
-.list-item-skills {
+.list-box {
   margin: 0.75em 0;
   font-size: 0.9em;
-  text-align: justify;
-  font-style: italic;
   font-weight: 300;
-  border: 1px solid #ccc;
-  padding: 0.5em;
+  border: 1px solid #ddd;
+  padding: 0.25em;
   line-height: 1.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.list-box-item {
+  margin-right: 0.5em;
+}
+
+.list-box-item:before {
+  content: '\ffed';
+  margin: 0 0.25em;
+}
+
+.footer {
+  background-color: #aaa;
+  padding: 1em;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 600px) {

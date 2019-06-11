@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Improve React Performance",
+    "url": "https://youtu.be/sSF_MGPOcTw",
+    "description": [
+      "I've recently worked a lot on performance improvement. I've read a lot of articles, and written a lot of lines of code.",
+      "I've even maintained one of the most important libraries to detect performance issues (why-did-you-update),",
+      "and later wrote an even better library from scratch (why-did-you-render).<br/>",
+      "My lecture will focus on how React's Virtual DOM actually works, and how to work with it efficiently when performance issues arise.",
+      "We will also talk about what \"performance issues\" actually mean, and how to detect them.<br/>",
+      "Filmed @ Negev web developers meetup at wix offices, Beer Sheba"
+    ],
+    "date": "Jan 23, 2019"
+  }
+]

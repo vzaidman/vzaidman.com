@@ -1,32 +1,21 @@
 const fs = require('fs')
 const processCss = require('./build/process-css')
 
-let html = fs.readFileSync('./src/index.html').toString()
+let html = fs.readFileSync('index.html').toString()
 
-const projectsList = JSON.parse(fs.readFileSync('./data/project-list.json').toString())
-const projectListItemTemplate = fs.readFileSync('./src/templates/project-list-item.html').toString()
-html = require('./build/process-list-template')({
-	htmlContent: html,
-	listItemsData: projectsList,
-	templateName: 'project-list',
-	listItemTemplate: projectListItemTemplate
-})
+html = require('./build/process-list-template')('project-list-item')('project-list')(html)
 
-const publicationList = JSON.parse(fs.readFileSync('./data/publication-list.json').toString())
-const publicationListItemTemplate = fs.readFileSync('./src/templates/publication-list-item.html').toString()
-html = require('./build/process-list-template')({
-	htmlContent: html,
-	listItemsData: publicationList,
-	templateName: 'publication-list',
-	listItemTemplate: publicationListItemTemplate
-})
+const publicationListGenerator = require('./build/process-list-template')('publication-list-item')
+html = publicationListGenerator('meetup-video-list')(html)
+html = publicationListGenerator('podcast-list')(html)
+html = publicationListGenerator('publication-list')(html)
+html = publicationListGenerator('open-source-projects')(html)
 
 html = require('./build/convert-png-images-to-base-64.js')(html)
 
-const css = fs.readFileSync('./src/index.css').toString()
 html = require('./build/process-css')({
 	htmlContent: html,
-	cssContent: css
+	cssContent: fs.readFileSync('index.css').toString()
 })
 
 fs.writeFileSync('./dist/index.html', html)
