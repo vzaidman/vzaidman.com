@@ -18,4 +18,6 @@ html = require('./build/process-css')({
 	cssContent: fs.readFileSync('index.css').toString()
 })
 
-fs.writeFileSync('./dist/index.html', html)
+html = require('./build/compress-html')(html)
+
+fs.writeFileSync('dist/index.html', html)
