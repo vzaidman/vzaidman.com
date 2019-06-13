@@ -10,11 +10,13 @@
     "now-build": "npm run build"
   },
   "devDependencies": {
+    "chrome-aws-lambda": "^1.17.1",
     "concurrently": "^4.1.0",
     "cross-env": "^5.2.0",
     "html-pdf-chrome": "^0.5.0",
     "live-server": "^1.2.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "puppeteer-core": "^1.17.0"
   },
   "repository": {
     "type": "git",

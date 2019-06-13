@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" },
+    { "src": "build/zeit-generate-pdf.js", "use": "@now/node", "config": { "maxLambdaSize": "40mb" } }
+  ],
+  "routes": [
+    { "src": "/Vitali_Zaidman_CV.pdf", "dest": "build/zeit-generate-pdf.js" }
+  ]
+}

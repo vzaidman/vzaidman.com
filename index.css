@@ -217,3 +217,12 @@ br {
   }
 }
 
+@media print {
+  .footer {
+    display: none;
+  }
+  
+  .download-cv {
+    display: none;
+  }
+}
