@@ -24,7 +24,7 @@
     {
       "src": "\/$",
       "headers": {
-        "Link": "<https://www.googletagmanager.com>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin;"
+        "Link": "<https://mc.yandex.ru>; rel=preconnect; crossorigin"
       },
       "continue": true
     },
