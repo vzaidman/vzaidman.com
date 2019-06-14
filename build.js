@@ -25,8 +25,8 @@ html = require('./build/compress-html')(html)
 
 require('./build/create-robot-files.js')()
 
-fs.writeFileSync('dist/index.html', html)
-
 html = require('./build/process-images.js')('png')(html)
+
+fs.writeFileSync('dist/index.html', html)
 
 require('./build/create-pdf.js')(html)
