@@ -4,7 +4,7 @@
   "description": "Vitali Zaidman's Official Website",
   "scripts": {
     "build": "node build",
-    "build:watch": "cross-env NODE_ENV=development nodemon build --watch * --ext * --ignore dist",
+    "build:watch": "cross-env NODE_ENV=development nodemon build --watch * --ext * --ignore dist --ignore assets/*.pdf",
     "serve:watch": "live-server dist",
     "watch": "concurrently --kill-others \"npm run build:watch\" \"npm run serve:watch\"",
     "now-build": "npm run build"

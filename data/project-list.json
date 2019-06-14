@@ -5,12 +5,11 @@
     "description": "A software solutions, development and tutoring company.",
     "start-year": "2012",
     "end-year": "{{currentYear}}",
-    "experience": "<list>Management|SCRUM|Git|SEO|JavaScript|Node.js|React|Angular|Docker|iOS|Android|Windows Phone",
+    "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React|Angular|Docker|iOS|Android|Windows Phone|Community Relations|Management|Sales",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "For 4 years, up until the year <time datetime='2016'>2016</time>,",
-      "I worked as a web and mobile ninja, solving various problems and creating",
-      "various products.",
+      "I worked on various short-term projects as a web and mobile ninja",
       "<br/>",
       "Since <time datetime='2016'>2016</time> I've been responsible for several",
       "projects (usually 2 at the same time) as a Tech Lead and a Team Leader."
@@ -22,14 +21,14 @@
     "description": "Cloud-based software for creating animated presentations.",
     "start-year": "2016",
     "end-year": "{{currentYear}}",
-    "experience": "<list>Management|Agile|Git|Git flow|AWS|React|Redux|Docker|BitBucket Pipelines|TestCafe + Jest Testing",
-    "role-short": "Full-Stack Developer, Tech Lead",
+    "experience": "<list>Management|Agile|Git|Git flow|AWS|React|Redux|Docker|BitBucket Pipelines CI|TestCafe + Jest Testing|TypeScript|Css-Grids|Storybook",
+    "role-short": "Front-End Developer, Tech Lead",
     "role-long": [
-      "I was the first developer in re-building the application in it's HTML5-React-Redux version (migrating from a full flash site)",
-      "I created the infrastructure of the project and did some core graphical-mathematical work",
-      "later, I was responsible for a WellDone software team and also was responsible for the",
-      "shifting of the PowToon's whole developer's team to React-Redux from their previous flash (ActionScript) specialty.",
-      "Later, I was involved in various pipeline, testing, deployment and side projects."
+      "I was the first front-end developer in the re-building of PowToon in its HTML5-React-Redux version (migrating from a full flash web app).",
+      "I created the infrastructure of the project and did the core graphical-mathematical work.<br/>",
+      "I was responsible for a trained team from WellDone Software",
+      "and for the shifting of PowToon's developer's team to React-Redux from their previous flash (ActionScript) specialty.",
+      "Later, I worked on the project's CI, testing, PowerPoint plug-in, and other side projects."
     ]
   },
   {
@@ -38,7 +37,7 @@
     "description": "The biggest Israeli restaurant payment clearing and food ordering company.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
-    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing",
+    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "I was responsible for re-building the 10bis website from scratch. We did it in a very short time",
@@ -53,7 +52,7 @@
     "description": "A London based company providing small easy businesses with an easy, low-cost way to get online.",
     "start-year": "2017",
     "end-year": "2018",
-    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux",
+    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Storybook",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "I was responsible for creating the very performance and SEO oriented website with a team of 5 people,",
@@ -66,11 +65,13 @@
     "description": "User experience tools for intelligent email and Office365/SharePoint management.",
     "start-year": "2013",
     "end-year": "2016",
-    "experience": "<list>Agile|Web Services|Git|React|Redux|Sencha|Mobile Devices|Microsoft Plugins|SharePoint|Various API's like Facebook, SalesForce, and Zendesk",
-    "role-short": "Full-Stack Developer",
+    "experience": "<list>Agile|Web Services|Git|React|Redux|Sencha|Cordova|Mobile Devices|Microsoft Plugins|SharePoint|Various API's like Facebook, SalesForce, and Zendesk",
+    "role-short": "Full-Stack Developer, Mobile Developer",
     "role-long": [
-      "In these very intense 3 year period, I got to work on many of harmon.ie's products, on the web",
-      "as mobile applications, and as Microsoft Plug-ins."
+      "In this very intense three year period, I got to work on many of harmon.ie's products,",
+      "on the web, on different mobile devices using cordova, and on Microsoft Plug-ins.",
+      "I got to work with many API's to create a cross-platform aggregation software",
+      "that combines information from SharePoint, social networks, management platforms, and e-mail."
     ]
   }
 ]
