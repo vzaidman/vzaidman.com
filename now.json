@@ -12,6 +12,12 @@
       }
     },
     {
+      "src": "/.*\\.png$",
+      "headers": {
+        "Cache-Control": "max-age=3600000"
+      }
+    },
+    {
       "src": ".*",
       "headers": {
         "X-Frame-Options": "DENY",
