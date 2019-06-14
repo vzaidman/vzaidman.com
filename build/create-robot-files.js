@@ -4,7 +4,8 @@ module.exports = () => {
 	fs.writeFileSync('dist/robots.txt', [
 		'user-agent: *',
 		'allow: /$',
-		'allow: /Vitali_Zaidman_CV.pdf$',
+		'allow: /vitali_zaidman_cv.pdf$',
+		'allow: /vitali-zaidman-200x200.png$',
 		'',
 		'sitemap: https://vzaidman.com/sitemap.xml$'
 	].join('\n'))
