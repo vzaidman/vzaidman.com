@@ -7,7 +7,15 @@
     {
       "src": "/(.+)",
       "status": 301,
-      "headers": { "Location": "https://vzaidman.com" }
+      "headers": {
+        "Location": "https://vzaidman.com"
+      }
+    },
+    {
+      "src": ".*",
+      "headers": {
+        "X-Frame-Options": "ALLOWALL"
+      }
     }
   ]
 }
