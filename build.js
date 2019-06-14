@@ -23,7 +23,7 @@ html = require('./build/process-css')({
 
 html = require('./build/compress-html')(html)
 
-require('./build/create-robots-txt.js')()
+require('./build/create-robot-files.js')()
 
 fs.writeFileSync('dist/index.html', html)
 
