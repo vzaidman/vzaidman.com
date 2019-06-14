@@ -15,32 +15,27 @@
       "continue": true
     },
     {
-      "src": "\/[^.]+$",
-      "status": 301,
+      "src": "\/.*\\.(pdf|txt|xml)$",
       "headers": {
-        "Location": "https://vzaidman.com"
+        "Cache-Control": "public, max-age=17280"
       }
     },
     {
-      "src": "\/$",
-      "headers": {
-        "Link": "<https://mc.yandex.ru>; rel=preconnect; crossorigin"
-      },
-      "continue": true
-    },
-    {
-      "src": "\\.",
+      "src": "\/.*\\.",
       "headers": {
         "Cache-Control": "public, max-age=360000"
-      },
-      "continue": true
+      }
     },
     {
-      "src": ".*\\.(pdf|txt|xml)$",
+      "src": "\/?$",
       "headers": {
-        "Cache-Control": "public, max-age=17280"
-      },
-      "continue": true
+        "Link": "<https://mc.yandex.ru>; rel=preconnect; crossorigin"
+      }
+    },
+    {
+      "src": ".*",
+      "status": 404,
+      "dest": "404.html"
     }
   ]
 }
