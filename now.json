@@ -5,20 +5,20 @@
   ],
   "routes": [
     {
-      "src": "/^((?!(pdf|png|txt|xml)).)+$",
+      "src": "^((?!\\.).)+$",
       "status": 301,
       "headers": {
         "Location": "https://vzaidman.com"
       }
     },
     {
-      "src": "/.*\\.png$",
+      "src": "\\.",
       "headers": {
         "Cache-Control": "public, max-age=360000"
       }
     },
     {
-      "src": "/.*\\.(pdf|txt|xml)",
+      "src": ".*\\.(pdf|txt|xml)$",
       "headers": {
         "Cache-Control": "public, max-age=17280"
       }
@@ -35,7 +35,7 @@
     {
       "src": "/^",
       "headers": {
-        "Link": "<https://www.googletagmanager.com/gtag/js?id=UA-142161010-1>; rel=prefetch; crossorigin, <https://www.google-analytics.com/analytics.js>; rel=prefetch; crossorigin"
+        "Link": "<https://www.googletagmanager.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com/gtag/js?id=UA-142161010-1>; rel=prefetch; crossorigin, <https://www.google-analytics.com/analytics.js>; rel=prefetch; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin"
       }
     }
   ]
