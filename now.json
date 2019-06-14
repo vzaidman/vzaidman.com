@@ -1,7 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "package.json", "use": "@now/static-build" }
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
   ],
   "routes": [
     {
@@ -15,27 +18,32 @@
       "continue": true
     },
     {
-      "src": "\/.*\\.(pdf|txt|xml)$",
-      "headers": {
-        "Cache-Control": "public, max-age=17280"
-      }
-    },
-    {
-      "src": "\/.*\\..*$",
-      "headers": {
-        "Cache-Control": "public, max-age=360000"
-      }
-    },
-    {
       "src": "\/?$",
       "headers": {
         "Link": "<https://mc.yandex.ru>; rel=preconnect; crossorigin"
       }
     },
     {
-      "src": ".*",
+      "src": "\/.*\\.(pdf|txt|xml)$",
+      "headers": {
+        "Cache-Control": "public, max-age=17280"
+      },
+      "continue": true
+    },
+    {
+      "src": "\/.*\\..*$",
+      "headers": {
+        "Cache-Control": "public, max-age=360000"
+      },
+      "continue": true
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "\/.*",
       "status": 404,
-      "dest": "404.html"
+      "dest": "/404.html"
     }
   ]
 }
