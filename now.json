@@ -24,7 +24,7 @@
     {
       "src": "\/$",
       "headers": {
-        "Link": "<https://www.googletagmanager.com>; rel=preconnect; crossorigin, <https://www.googletagmanager.com/gtag/js?id=UA-142161010-1>; rel=prefetch; crossorigin, <https://www.google-analytics.com/analytics.js>; rel=prefetch; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin"
+        "Link": "<https://www.googletagmanager.com>; rel=preconnect; crossorigin, <https://www.google-analytics.com>; rel=preconnect; crossorigin;"
       },
       "continue": true
     },
