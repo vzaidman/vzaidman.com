@@ -15,7 +15,7 @@
       "continue": true
     },
     {
-      "src": "\/^((?!\\.).)+$",
+      "src": "\/[^.]+$",
       "status": 301,
       "headers": {
         "Location": "https://vzaidman.com"
