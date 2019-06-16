@@ -24,16 +24,16 @@
       }
     },
     {
-      "src": "\/.*\\.(pdf|txt|xml)$",
+      "src": "\/.*\\..*$",
       "headers": {
-        "Cache-Control": "public, max-age=17280"
+        "Cache-Control": "public, max-age=360000"
       },
       "continue": true
     },
     {
-      "src": "\/.*\\..*$",
+      "src": "\/.*\\.(pdf|txt|xml)$",
       "headers": {
-        "Cache-Control": "public, max-age=360000"
+        "Cache-Control": "public, max-age=17280"
       },
       "continue": true
     },
