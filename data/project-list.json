@@ -24,7 +24,7 @@
     "experience": "<list>Management|Agile|Git|Git flow|AWS|React|Redux|Docker|BitBucket Pipelines CI|TestCafe + Jest Testing|TypeScript|Css-Grids|Storybook",
     "role-short": "Front-End Developer, Tech Lead",
     "role-long": [
-      "I was in charge for the re-building of PowToon in its HTML5-React-Redux version (migrating from a full Flash web app).",
+      "I was in charge of re-building PowToon in its HTML5-React-Redux version (migrating from a full Flash web app).",
       "I created the infrastructure of the project and did the core graphical-mathematical work.<br/>",
       "Our team consisted of trained WellDone Software developers and developers from PowToon who",
       "we tutored to shift their expertise to React-Redux from their previous Flash (ActionScript) specialty.<br/>",
