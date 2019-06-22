@@ -9,7 +9,7 @@
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "Up until around the year&nbsp;<time datetime='2016'>2016</time>,",
-      "I worked on various short-term projects as a web and mobile ninja",
+      "I worked on various short-term projects as a web and mobile ninja.",
       "<br/>",
       "Since&nbsp;<time datetime='2016'>2016</time>, my responsibilities included working on various",
       "projects (usually 2 at the same time) as a Tech Lead and a Team Leader."
@@ -24,17 +24,17 @@
     "experience": "<list>Management|Agile|Git|Git flow|AWS|React|Redux|Docker|BitBucket Pipelines CI|TestCafe + Jest Testing|TypeScript|Css-Grids|Storybook",
     "role-short": "Front-End Developer, Tech Lead",
     "role-long": [
-      "I was the first front-end developer in the re-building of PowToon in its HTML5-React-Redux version (migrating from a full flash web app).",
+      "I was in charge for the re-building of PowToon in its HTML5-React-Redux version (migrating from a full Flash web app).",
       "I created the infrastructure of the project and did the core graphical-mathematical work.<br/>",
-      "I was responsible for a trained team from WellDone Software",
-      "and for the shifting of PowToon's developer's team to React-Redux from their previous flash (ActionScript) specialty.",
+      "Our team consisted of trained WellDone Software developers and developers from PowToon who",
+      "we tutored to shift their expertise to React-Redux from their previous Flash (ActionScript) specialty.<br/>",
       "Later, I worked on the project's CI, testing, PowerPoint plug-in, and other side projects."
     ]
   },
   {
     "name": "10bis",
     "url": "https://www.10bis.co.il/",
-    "description": "The biggest Israeli restaurant payment clearing and food ordering company.",
+    "description": "The biggest Israeli online food ordering from restaurants services and payment platform.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook",
@@ -43,20 +43,19 @@
       "I was responsible for re-building the 10bis website from scratch. We did it in a very short time",
       "with a team of around 5 people, where some of them were new to React.",
       "We used server side rendering.<br/>Later, I was responsible for",
-      "improving SEO and the site's performance."
+      "improving the site's SEO and performance."
     ]
   },
   {
     "name": "UENI",
     "url": "https://ueni.com/",
-    "description": "A London based company providing small easy businesses with an easy, low-cost way to get online.",
+    "description": "A London based company that provides small easy businesses with an easy, inexpensive way to get online.",
     "start-year": "2017",
     "end-year": "2018",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Storybook",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
-      "I was responsible for creating the very performance and SEO oriented website with a team of 5 people,",
-      "using Next.js"
+      "I was responsible for building the website with a team of 6 people."
     ]
   },
   {
@@ -70,8 +69,8 @@
     "role-long": [
       "In this very intense three year period, I got to work on many of harmon.ie's products,",
       "on the web, on different mobile devices using cordova, and on Microsoft Plug-ins.",
-      "I got to work with many API's to create a cross-platform aggregation software",
-      "that combines information from SharePoint, social networks, management platforms, and e-mail."
+      "I got to work with various API's to create a cross-platform aggregation software",
+      "that combines information from SharePoint, SalesForce, social networks, management platforms, and e-mail."
     ]
   }
 ]
