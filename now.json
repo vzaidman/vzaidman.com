@@ -20,7 +20,7 @@
     {
       "src": "\/?$",
       "headers": {
-        "Link": "<https://mc.yandex.ru/metrika/watch.js>;as=script;rel=preload"
+        "Link": "<https://mc.yandex.ru>; rel=preconnect; crossorigin"
       }
     },
     {
