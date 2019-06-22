@@ -51,6 +51,7 @@ br {
   margin: 0.5em 0 0;
   font-weight: bold;
   display: inline-block;
+  width: 7em;
 }
 
 .main-heading {
@@ -186,11 +187,22 @@ br {
   .header {
     padding-bottom: 1em;
   }
+}
+
+@media print {
+  .footer {
+    display: none;
+  }
+  
+  .download-cv {
+    display: none;
+  }
   
   .social-media-links {
-	flex-direction: column;
+    flex-direction: column;
     align-items: flex-start;
     width: 30em;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2.5em;
@@ -215,15 +227,5 @@ br {
   .social-media-image {
     height: 1.5em;
     padding-right: 0.5em;
-  }
-}
-
-@media print {
-  .footer {
-    display: none;
-  }
-  
-  .download-cv {
-    display: none;
   }
 }
