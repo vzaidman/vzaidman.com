@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["www.vzaidman.com"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://vzaidman.com/$1" }
+    }
+  ]
+}
