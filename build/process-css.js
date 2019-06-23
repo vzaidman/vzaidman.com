@@ -5,6 +5,7 @@ let currentClassNameCount = 0
 module.exports = ({htmlContent, cssContent}) => {
 	// remove whitespaces
 	cssContent = cssContent
+		.replace(/\/\*.*?\*\//g, '') // remove comments
 		.replace(/,\s*/g, ',')  // between class names separated with , {
 		.replace(/\s*\{/g, '{') // between class name and {
 		.replace(/\{\s*/g, '{') // between class { and class content start

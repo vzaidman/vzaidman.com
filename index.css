@@ -45,14 +45,14 @@ br {
   padding-bottom: 1.5em;
 }
 
-.download-cv {
-  border: 1px outset #fd3501;
-  padding: 0.5em 3em;
-  margin: 0.5em 0 0;
-  font-weight: bold;
-  display: inline-block;
-  width: 7em;
-}
+/*.download-cv {*/
+  /*border: 1px outset #fd3501;*/
+  /*padding: 0.5em 3em;*/
+  /*margin: 0.5em 0 0;*/
+  /*font-weight: bold;*/
+  /*display: inline-block;*/
+  /*width: 7em;*/
+/*}*/
 
 .main-heading {
   margin-top: 0.5em;
@@ -194,9 +194,9 @@ br {
     display: none;
   }
   
-  .download-cv {
-    display: none;
-  }
+  /*.download-cv {*/
+    /*display: none;*/
+  /*}*/
   
   .social-media-links {
     flex-direction: column;

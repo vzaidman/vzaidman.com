@@ -16,17 +16,17 @@ html = publicationListGenerator('podcast-list')(html)
 html = publicationListGenerator('publication-list')(html)
 html = publicationListGenerator('open-source-projects')(html)
 
+html = require('./build/compress-html')(html)
+
 html = require('./build/process-css')({
 	htmlContent: html,
 	cssContent: fs.readFileSync('index.css').toString()
 })
 
-html = require('./build/compress-html')(html)
-
 require('./build/create-robot-files.js')()
 
 fs.writeFileSync('dist/index.html', html)
 
-const htmlForPdf = require('./build/process-images.js')('png')(html)
-
-require('./build/create-pdf.js')(htmlForPdf)
+// const htmlForPdf = require('./build/process-images.js')('png')(html)
+//
+// require('./build/create-pdf.js')(htmlForPdf)
