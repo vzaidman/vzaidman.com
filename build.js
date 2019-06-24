@@ -4,13 +4,13 @@ require('./build/copy-assets')()
 
 let html = fs.readFileSync('index.html').toString()
 
-html = require('./build/process-list-template')('social-media-link-item')('social-media-profiles-list')(html)
+const template = require('./build/process-list-template')
+html = template('social-media-link-item')('social-media-profiles-list')(html)
+html = template('seo-tags')('seo-tags')(html)
+html = template('detailed-list-item')('education-list')(html)
+html = template('detailed-list-item')('project-list')(html)
 
-html = require('./build/process-list-template')('seo-tags')('seo-tags')(html)
-
-html = require('./build/process-list-template')('project-list-item')('project-list')(html)
-
-const publicationListGenerator = require('./build/process-list-template')('publication-list-item')
+const publicationListGenerator = template('publication-list-item')
 html = publicationListGenerator('meetup-video-list')(html)
 html = publicationListGenerator('podcast-list')(html)
 html = publicationListGenerator('publication-list')(html)

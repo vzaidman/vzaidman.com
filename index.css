@@ -116,6 +116,10 @@ br {
   margin-bottom: 0.25em;
 }
 
+.education-list .list-item-name {
+  color: #727402;
+}
+
 .meetup-video-list .list-item-name {
   color: #e00;
 }
