@@ -4,7 +4,7 @@ module.exports = () => {
 	fs.writeFileSync('dist/robots.txt', [
 		'user-agent: *',
 		'allow: /$',
-		'allow: /Vitali_Zaidman_CV.pdf$',
+		'allow: /vitali_zaidman_cv.pdf$',
 		'allow: /vitali-zaidman-200x200.png$',
 		'',
 		'sitemap: https://vzaidman.com/sitemap.xml$'
@@ -20,7 +20,7 @@ module.exports = () => {
       <priority>1.0</priority>
    </url>
       <url>
-      <loc>https://vzaidman.com/Vitali_Zaidman_CV.pdf</loc>
+      <loc>https://vzaidman.com/vitali_zaidman_cv.pdf</loc>
       <lastmod>${new Date().toISOString()}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>

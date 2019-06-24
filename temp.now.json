@@ -5,6 +5,6 @@
     { "src": "build/zeit-generate-pdf.js", "use": "@now/node", "config": { "maxLambdaSize": "40mb" } }
   ],
   "routes": [
-    { "src": "/Vitali_Zaidman_CV.pdf", "dest": "build/zeit-generate-pdf.js" }
+    { "src": "/vitali_zaidman_cv.pdf", "dest": "build/zeit-generate-pdf.js" }
   ]
 }

@@ -26,7 +26,7 @@ async function createPdfFile(html, dist) {
 module.exports = html => {
 	const interval = setInterval(() => console.log('building pdf cv'), 2000)
 
-	createPdfFile({html, dist: 'dist/Vitali_Zaidman_CV.pdf'})
+	createPdfFile({html, dist: 'dist/vitali_zaidman_cv.pdf'})
 		.catch((...args) => console.error(...args))
 		.finally(() => clearInterval(interval))
 }
