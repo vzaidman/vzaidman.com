@@ -8,11 +8,12 @@
     "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React|Angular|Docker|iOS|Android|Windows Phone|Community Relations|Management|Sales",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
-      "Up until around the year&nbsp;<time datetime='2016'>2016</time>,",
+      "Up until around&nbsp;<time datetime='2016'>2016</time>,",
       "I worked on various short-term projects as a web and mobile ninja.",
       "<br/>",
-      "Since&nbsp;<time datetime='2016'>2016</time>, my responsibilities included working on various",
-      "projects (usually 2 at the same time) as a Tech Lead and a Team Leader."
+      "Since&nbsp;<time datetime='2016'>2016</time>, I have been working as a Tech Lead and a Team Leader",
+      "in several projects of the company.<br/>I also",
+      "research, lecture, and blog about web technology on behalf of the company."
     ]
   },
   {
@@ -24,25 +25,26 @@
     "experience": "<list>Management|Agile|Git|Git flow|AWS|React|Redux|Docker|BitBucket Pipelines CI|TestCafe + Jest Testing|TypeScript|Css-Grids|Storybook",
     "role-short": "Front-End Developer, Tech Lead",
     "role-long": [
-      "I was in charge of re-building PowToon in its HTML5-React-Redux version (migrating from a full Flash web app).",
-      "I created the infrastructure of the project and did the core graphical-mathematical work.<br/>",
-      "Our team consisted of trained WellDone Software developers and developers from PowToon who",
-      "we tutored to shift their expertise to React-Redux from their previous Flash (ActionScript) specialty.<br/>",
-      "Later, I worked on the project's CI, testing, PowerPoint plug-in, and other side projects."
+      "Initially I started off in charge of migrating PowToon's Web App from Full Flash to HTML5-React-Redux,",
+      "essentially re-building the site from scratch.",
+      "I created the infrastructure of the project and did the core graphical-mathematical work as well.<br/>",
+      "Our team of around 8 people consisted of developers from WellDone Software and PowToon.",
+      "I was responsible to tutor and train PowToon's staff in learning everything about HTML5-React-Redux.<br/>",
+      "Later, I worked on the project's CI, testing, PowerPoint plug-in, and many other side projects."
     ]
   },
   {
     "name": "10bis",
     "url": "https://www.10bis.co.il/",
-    "description": "The biggest Israeli online food ordering from restaurants services and payment platform.",
+    "description": "The biggest Israeli online app and payment platform for ordering food from restaurants.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
-      "I was responsible for re-building the 10bis website from scratch. We did it in a very short time",
-      "with a team of around 5 people, where some of them were new to React.",
-      "We used server side rendering.<br/>Later, I was responsible for",
+      "I was responsible for leading a team of 5 people in re-building the 10bis website from scratch.",
+      "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
+      "<br/>Later, I was responsible for",
       "improving the site's SEO and performance."
     ]
   },
@@ -55,7 +57,7 @@
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Storybook",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
-      "I was responsible for building the website with a team of 6 people."
+      "I was responsible for building the website from zero with a team of 6 people, some working from the company's office in London."
     ]
   },
   {

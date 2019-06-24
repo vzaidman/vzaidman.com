@@ -31,7 +31,7 @@
     "url": "https://github.com/PowToon/xml-fix-loader",
     "description": [
       "A webpack loader canonizing xml files, fixing issues like unquoted attributes:<br/>",
-      "&lt;div width=100px /&gt;&nbsp;&nbsp;=&gt;&nbsp;&nbsp;&lt;div width=\"100px\"/&gt;"
+      "<span style=\"background-color: #ddd;padding:2px;\">&lt;div width=100px /&gt;&nbsp;&nbsp;→&nbsp;&nbsp;&lt;div width=\"100px\"/&gt;</span>"
     ],
     "date": "Mar 8, 2017"
   },
