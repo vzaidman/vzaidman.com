@@ -51,27 +51,27 @@
   {
     "name": "UENI",
     "url": "https://ueni.com/",
-    "description": "A London based company that provides small easy businesses with an easy, inexpensive way to get online.",
+    "description": "A London based company that provides small businesses with an easy, inexpensive way to get online.",
     "start-year": "2017",
     "end-year": "2018",
-    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Storybook",
+    "experience": "<list>SEO|Performance|Management|Agile|Git|Next.js|React|Redux|Storybook",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
-      "I was responsible for building the website from zero with a team of 6 people, some working from the company's office in London."
+      "I was responsible for building the website from zero with a team of 6 people."
     ]
   },
   {
     "name": "harmon.ie",
     "url": "https://harmon.ie/",
-    "description": "User experience tools for intelligent email and Office365/SharePoint management.",
+    "description": "User experience tools for intelligent email and Office365/SharePoint Management.",
     "start-year": "2013",
     "end-year": "2016",
-    "experience": "<list>Agile|Web Services|Git|React|Redux|Sencha|Cordova|Mobile Devices|Microsoft Plugins|SharePoint|Various API's like Facebook, SalesForce, and Zendesk",
+    "experience": "<list>Agile|Web Services|Git|React|Redux|Sencha|Cordova|Android|iOS|Windows Phone|Microsoft Office Plugins|SharePoint|Various API's like Facebook, SalesForce, and Zendesk",
     "role-short": "Full-Stack Developer, Mobile Developer",
     "role-long": [
-      "In this very intense three year period, I got to work on many of harmon.ie's products,",
-      "on the web, on different mobile devices using cordova, and on Microsoft Plug-ins.",
-      "I got to work with various API's to create a cross-platform aggregation software",
+      "In this very intense three year period, I had the opportunity to work on many of harmon.ie's products. We developed",
+      "web apps, Microsoft Office Plug-ins, and several apps for Android, iOS, and Windows Phone using Cordova.<br/>",
+      "During that time, I gained a lot of experience with various APIs by creating a cross-platform aggregation software",
       "that combines information from SharePoint, SalesForce, social networks, management platforms, and e-mail."
     ]
   }
