@@ -1,5 +1,11 @@
 [
   {
+    "name": "Babel.js Guide -Part 1- The Absolute Must-Know Basics: Plugins, Presets, And Config",
+    "url": "https://medium.com/welldone-software/babel-js-guide-part-1-the-absolute-must-know-basics-plugins-presets-and-config-28150c199e45",
+    "description": "What is Babel and how to use it? What are presets and plugins, and in what order Babel applies them?",
+    "date": "Jul 04, 2019"
+  },
+  {
     "name": "How To Keep Track of Your Pinned NPM Packages?",
     "url": "https://medium.com/welldone-software/how-to-keep-track-of-your-pinned-npm-packages-7a006a014e0c",
     "description": "How to document/comment why package.json packages are pinned to specific versions? How to enforce no one accidentally updates them?",
