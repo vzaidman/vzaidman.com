@@ -1,5 +1,11 @@
 [
   {
+    "name": "CSS Theme Organization Best Practices",
+    "url": "https://medium.com/welldone-software/css-theme-organization-best-practices-a8e375d92c7c",
+    "description": "The three levels of theme abstraction that would make your CSS themes invincible.",
+    "date": "Jul 23, 2019"
+  },
+  {
     "name": "Babel.js Guide -Part 1- The Absolute Must-Know Basics: Plugins, Presets, And Config",
     "url": "https://medium.com/welldone-software/babel-js-guide-part-1-the-absolute-must-know-basics-plugins-presets-and-config-28150c199e45",
     "description": "What is Babel and how to use it? What are presets and plugins, and in what order Babel applies them?",
