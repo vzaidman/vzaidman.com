@@ -4,11 +4,6 @@
     {
       "src": "package.json",
       "use": "@now/static-build"
-    },
-    {
-      "src": "build/create-pdf-of-site.js",
-      "use": "@now/node",
-      "config": { "maxLambdaSize": "40mb" }
     }
   ],
   "routes": [
