@@ -26,7 +26,3 @@ html = require('./build/process-css')({
 require('./build/create-robot-files.js')()
 
 fs.writeFileSync('dist/index.html', html)
-
-const htmlForPdf = require('./build/process-images.js')('png')(html)
-
-require('./build/create-pdf.js')(htmlForPdf)
