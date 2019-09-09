@@ -18,6 +18,18 @@
       "continue": true
     },
     {
+      "src": "\/?$",
+      "headers": {
+        "Link": "<https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js>; rel=preconnect"
+      }
+    },
+    {
+      "src": "\/?$",
+      "headers": {
+        "Link": "<https://mc.yandex.ru>; rel=preconnect"
+      }
+    },
+    {
       "src": "\/.*\\..*$",
       "headers": {
         "Cache-Control": "public, max-age=31557600"
