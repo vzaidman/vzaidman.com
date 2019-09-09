@@ -20,13 +20,7 @@
     {
       "src": "\/?$",
       "headers": {
-        "Link": "<https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js>; rel=preconnect"
-      }
-    },
-    {
-      "src": "\/?$",
-      "headers": {
-        "Link": "<https://mc.yandex.ru>; rel=preconnect"
+        "Link": "<https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js>; rel=preconnect, <https://mc.yandex.ru>; rel=preconnect"
       }
     },
     {
