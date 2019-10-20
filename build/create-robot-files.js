@@ -1,16 +1,13 @@
 const fs = require('fs')
 
 module.exports = () => {
-	fs.writeFileSync('dist/robots.txt', [
-		'user-agent: *',
-		'allow: /$',
-		'allow: /vitali-zaidman-cv.pdf$',
-		'allow: /vitali-zaidman-200x200.png$',
-		'',
-		'sitemap: https://vzaidman.com/sitemap.xml$'
-	].join('\n'))
+	fs.writeFileSync('dist/robots.txt',
+`user-agent: *
 
-	fs.writeFileSync('dist/sitemap.xml',
+sitemap: https://vzaidman.com/Sitemap.xml
+`)
+
+	fs.writeFileSync('dist/Sitemap.xml',
 `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
