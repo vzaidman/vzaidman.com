@@ -18,15 +18,39 @@
 <meta property="og:type" content="profile"/>
 <meta property="profile:first_name" content="{{firstName}}"/>
 <meta property="profile:last_name" content="{{lastName}}"/>
-<meta property="profile:username" content="{{facebookUserName}}"/>
+<meta property="profile:username" content="{{socialNetworksUserName}}"/>
 <meta property="profile:gender" content="{{gender}}"/>
 
 <meta name="twitter:title" content="{{title}}"/>
 <meta name="twitter:description" content="{{description}}"/>
 <meta name="twitter:image" content="{{imageUrl}}"/>
-<meta name="twitter:site" content="@{{twitterUserName}}"/>
-<meta name="twitter:creator" content="@{{twitterUserName}}"/>
+<meta name="twitter:site" content="@{{socialNetworksUserName}}"/>
+<meta name="twitter:creator" content="@{{socialNetworksUserName}}"/>
 
 <meta name="copyright" content="{{fullName}}"/>
 <meta name="author" content="{{fullName}}, {{email}}"/>
 <meta name="owner" content="{{fullName}}, {{email}}"/>
+
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org/",
+	"type": "Person",
+	"jobTitle": "{{jobTitle}}",
+	"name": "{{fullName}}",
+	"url": "{{url}}",
+	"email": "{{email}}",
+	"gender": "{{gender}}",
+	"sameAs": [
+	  "https://github.com/{{socialNetworksUserName}}",
+	  "https://medium.com/@{{socialNetworksUserName}}",
+	  "https://twitter.com/{{socialNetworksUserName}}",
+	  "https://linkedin.com/in/{{socialNetworksUserName}}",
+	  "https://facebook.com/{{socialNetworksUserName}}"
+	],
+	"worksFor": {
+	  "@type": "Organization",
+	  "name": "{{organizationName}}",
+	  "url": "{{organizationUrl}}"
+	}
+  }
+</script>

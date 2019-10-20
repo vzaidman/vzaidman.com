@@ -1,19 +1,21 @@
 [
   {
     "title": "Vitali Zaidman | Personal Website",
-    "description": "Portfolio and Publications of Vitali Zaidman- Tech-Lead, Full Stack Software Developer and Web Expert, Blogger, and Researcher.",
-    "url": "https://vzaidman.com",
+    "description": "Portfolio and Publications of Vitali Zaidman- Senior Full Stack Developer, Tech-Lead, and Blogger.",
+    "jobTitle": "Senior Full Stack Developer, Tech-Lead, and Blogger",
+    "url": "https://vzaidman.com/",
+    "organizationName": "Welldone Software Solutions Ltd.",
+    "organizationUrl": "https://welldone.software/",
     "imageUrl": "https://vzaidman.com/vzaidman-200x200.png",
     "imageWidth": "200",
     "imageHeight": "200",
     "imageMime": "image/png",
     "imageAlt": "the image of Vitali Zaidman",
-    "twitterUserName": "vzaidman",
+    "socialNetworksUserName": "vzaidman",
     "firstName": "Vitali",
     "lastName": "Zaidman",
     "fullName": "Vitali Zaidman",
     "email": "vzaidman@gmail.com",
-    "facebookUserName": "vzaidman",
     "gender": "male"
   }
 ]
