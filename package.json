@@ -20,7 +20,7 @@
     "url": "git+https://github.com/vzaidman/vzaidman.com.git"
   },
   "author": "Vitali Zaidman <vzaidman@gmail.com> (https://github.com/vzaidman)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vzaidman/vzaidman.com/issues"
   },
