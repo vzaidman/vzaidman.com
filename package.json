@@ -10,10 +10,10 @@
     "now-build": "npm run build"
   },
   "devDependencies": {
-    "concurrently": "^4.1.2",
-    "cross-env": "^5.2.0",
+    "concurrently": "^5.0.0",
+    "cross-env": "^6.0.3",
     "live-server": "^1.2.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.4"
   },
   "repository": {
     "type": "git",
