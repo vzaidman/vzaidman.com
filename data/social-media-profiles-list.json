@@ -1,10 +1,5 @@
 [
   {
-    "platformName": "github",
-    "url": "https://github.com/vzaidman",
-    "displayUrl": "github.com/vzaidman"
-  },
-  {
     "platformName": "medium",
     "url": "https://medium.com/@vzaidman",
     "displayUrl": "medium.com/@vzaidman"
@@ -13,6 +8,11 @@
     "platformName": "twitter",
     "url": "https://twitter.com/vzaidman",
     "displayUrl": "twitter.com/vzaidman"
+  },
+  {
+    "platformName": "github",
+    "url": "https://github.com/vzaidman",
+    "displayUrl": "github.com/vzaidman"
   },
   {
     "platformName": "linkedin",
