@@ -17,11 +17,26 @@
     ]
   },
   {
+    "name": "Takeaway.com (originally 10bis.co.il)",
+    "url": "https://www.10bis.co.il/",
+    "description": "The biggest Israeli online app and payment platform for ordering food from restaurants.",
+    "start-year": "2018",
+    "end-year": "{{currentYear}}",
+    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook",
+    "role-short": "Full-Stack Developer, Tech Lead",
+    "role-long": [
+      "I was responsible for the technological aspect in re-building the 10Bis website from scratch with a team of 5 people.",
+      "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
+      "<br/><br/>Later, I was responsible for creating another website to manage 10Bis accounts.",
+      "<br/><br/>Currently, I'm leading the front-end of both sites and focus on improving their SEO and performance."
+    ]
+  },
+  {
     "name": "PowToon",
     "url": "https://www.powtoon.com/",
     "description": "Cloud-based software for creating animated presentations.",
     "start-year": "2016",
-    "end-year": "{{currentYear}}",
+    "end-year": "2019",
     "experience": "<list>Management|Agile|Git|Git flow|AWS|React|Redux|Docker|BitBucket Pipelines CI|TestCafe + Jest Testing|TypeScript|Css-Grids|Storybook",
     "role-short": "Front-End Developer, Tech Lead",
     "role-long": [
@@ -31,21 +46,6 @@
       "Our team of around 8 people consisted of developers from WellDone Software and PowToon.",
       "I was responsible to tutor and train PowToon's staff in learning everything about HTML5-React-Redux.<br/>",
       "Later, I worked on the project's CI, testing, PowerPoint plug-in, and many other side projects."
-    ]
-  },
-  {
-    "name": "10bis",
-    "url": "https://www.10bis.co.il/",
-    "description": "The biggest Israeli online app and payment platform for ordering food from restaurants.",
-    "start-year": "2018",
-    "end-year": "{{currentYear}}",
-    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook",
-    "role-short": "Full-Stack Developer, Tech Lead",
-    "role-long": [
-      "I was responsible for the technological aspect in re-building the 10bis website from scratch with a team of 5 people.",
-      "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
-      "<br/>Later, I was responsible for",
-      "improving the site's SEO and performance."
     ]
   },
   {
