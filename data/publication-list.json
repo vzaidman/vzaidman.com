@@ -1,5 +1,11 @@
 [
   {
+    "name": "Why Did You Render v4 Released!",
+    "url": "https://medium.com/welldone-software/why-did-you-render-v4-released-48e0f0b99d4c",
+    "description": "TypeScript support, Custom hooks tracking (like React-Redux’s useSelector), Tracking of all pure components.",
+    "date": "Jan 27, 2020"
+  },
+  {
     "name": "React Element’s “Parent” vs “Rendered By”",
     "url": "https://medium.com/welldone-software/react-elements-parent-vs-rendered-by-4f879849cd58",
     "description": "A key concept of React we tend to forget, quickly explained.",
