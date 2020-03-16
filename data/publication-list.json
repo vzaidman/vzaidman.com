@@ -1,5 +1,11 @@
 [
   {
+    "name": "An Overview of JavaScript Testing in 2020",
+    "url": "https://medium.com/welldone-software/an-overview-of-javascript-testing-7ce7298b9870",
+    "description": "This guide is intended to catch you up with the most important reasoning, terms, tools, and approaches to JavaScript testing as for the year 2020.",
+    "date": "Mar 16, 2020"
+  },
+  {
     "name": "Why Did You Render v4 Released!",
     "url": "https://medium.com/welldone-software/why-did-you-render-v4-released-48e0f0b99d4c",
     "description": "TypeScript support, Custom hooks tracking (like React-Redux’s useSelector), Tracking of all pure components.",
