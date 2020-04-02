@@ -1,5 +1,17 @@
 [
   {
+    "name": "Webinar - Advanced React – Virtual DOM and Performance",
+    "url": "https://codevalue.com/advanced-react-virtual-dom-and-performance/",
+    "description": [
+      "The virtual DOM is what we generate through the renders of React components.",
+      "But React is designed in a way where we don’t care about what happens as a result of these renders.",
+      "This lecture aims to explain the relationships between different React elements-",
+      "a concept that would help us to reveal React patterns where performance might be an issue.",
+      "We would later show how to avoid running into these performance issues."
+    ],
+    "date": "Apr 02, 2020"
+  },
+  {
     "name": "Improve React Performance",
     "url": "https://youtu.be/sSF_MGPOcTw",
     "description": [
