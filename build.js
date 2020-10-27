@@ -23,6 +23,8 @@ html = require('./build/process-css')({
 	cssContent: fs.readFileSync('index.css').toString()
 })
 
+html = require('./build/process-images')('(png|jpg)')(html)
+
 require('./build/create-robot-files.js')()
 
 fs.writeFileSync('dist/index.html', html)
