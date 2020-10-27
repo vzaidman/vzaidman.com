@@ -76,6 +76,11 @@ br {
   display: none;
 }
 
+.header-link {
+  text-decoration: underline;
+  color: unset;
+}
+
 .section {
   position: relative;
   padding: 1em 1em 0.1em 1em;
