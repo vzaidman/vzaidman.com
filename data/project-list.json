@@ -19,7 +19,7 @@
   {
     "name": "Takeaway.com (originally 10bis.co.il)",
     "url": "https://www.10bis.co.il/",
-    "description": "The biggest Israeli online app and payment platform for ordering food from restaurants.",
+    "description": "The biggest platform for ordering food online outside of China.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook",
