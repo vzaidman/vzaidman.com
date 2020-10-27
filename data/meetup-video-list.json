@@ -1,6 +1,65 @@
 [
   {
-    "name": "Webinar - Advanced React – Virtual DOM and Performance",
+    "name": "What developers need to know about SEO (in Hebrew)",
+    "url": "https://codevalue.com/what-developers-need-to-know-about-seo/",
+    "description": [
+      "Developers tend to know very little about SEO because usually",
+      "we tend to focus on how the website is exposed towards users and not bots,",
+      "but it’s a very beneficial thing to know.",
+      "SEO is very important for most of the modern websites because higher rank = more traffic = more money."
+    ],
+    "date": "Oct 20, 2020",
+    "extra-link": "Link to recording",
+    "extra-link-url": "https://youtu.be/Fk-r3MYHT2U"
+  },
+  {
+    "name": "Takeaway.com webinar - Do You Need Server Side Rendering? What Are The Alternatives?",
+    "url": "https://www.meetup.com/Takeaway-com-Tech-Talks/events/271792841/",
+    "description": [
+      "There are numerous strategies to choose from when building modern HTML-based apps today.",
+      "<br/>You can render it on the client-side, the server, or even generate it during build time.",
+      "<br/>You need to make a choice, and tools like Gatsby, Next.js, Angular Universal, ScullyIO, and NuxtJS can help you get there.",
+      "<br/>How do you make the right choice though? Why would you choose one over the other?"
+    ],
+    "extra-link": "Link to recording",
+    "extra-link-url": "https://youtu.be/hAsDNJ1agu4",
+    "date": "Jul 21, 2020"
+  },
+  {
+    "name": "Lecture in Architecture Next 2020 - Do You Need Server Side Rendering? What Are The Alternatives? (in Hebrew)",
+    "url": "https://codevalue.com/architecture-next-2020/",
+    "description": [
+      "One full day, over 500 participants, 3 tracks, 13 lectures, and one cloud experts panel!",
+      "<br/><br/>Wow, we had a blast.",
+      "<br/><br/>The software development world is developing at a tremendous pace.",
+      "New technologies and platforms are abundant,",
+      "and things that were brand new a year ago sometimes suddenly seem like ancient history.",
+      "The software architect’s job is to figure out how to best use these technologies and platforms to his/her advantage,",
+      "and that job is getting harder and harder.",
+      "At Architecture Next 2020 we discussed revolutionary concepts and tools and demonstrated how they can be applied",
+      "towards making your next software system a better one.",
+      "<br/><br/>Due to Coronavirus related restrictions, this year’s conference,",
+      "held for the third consecutive year, was all virtual. But as usual, was packed with great content and insightful speakers."
+    ],
+    "extra-link": "Link to recording",
+    "extra-link-url": "https://youtu.be/nkJQfPmBXxo",
+    "date": "Jul 07, 2020"
+  },
+  {
+    "name": "Takeaway.com Webinar - Advanced React – Virtual DOM and Performance",
+    "url": "https://www.meetup.com/Takeaway-com-Tech-Talks/events/270706010/",
+    "description": [
+      "The Virtual DOM is roughly what we generate through the renders of React components.",
+      "But React is designed in a way where we don’t usually need to care about what exactly happens as a result of these renders.",
+      "This lecture aims to explain the relationships between different React elements-",
+      "a concept that would help us reveal React patterns where performance might be an issue, and how to handle them."
+    ],
+    "extra-link": "Link to the lecture recording",
+    "extra-link-url": "https://youtu.be/WKnasIrKm10",
+    "date": "Jun 02, 2020"
+  },
+  {
+    "name": "CodeValue Webinar - Advanced React – Virtual DOM and Performance",
     "url": "https://codevalue.com/advanced-react-virtual-dom-and-performance/",
     "description": [
       "The virtual DOM is what we generate through the renders of React components.",
@@ -9,6 +68,8 @@
       "a concept that would help us to reveal React patterns where performance might be an issue.",
       "We would later show how to avoid running into these performance issues."
     ],
+    "extra-link": "Link to the lecture recording",
+    "extra-link-url": "https://youtu.be/udKDBwTwt5g",
     "date": "Apr 02, 2020"
   },
   {

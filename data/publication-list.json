@@ -1,5 +1,16 @@
 [
-
+  {
+    "name": "React — When Should Pure Components Be Used?",
+    "url": "https://medium.com/welldone-software/react-when-should-pure-components-be-used-56c4428fe970",
+    "description": "React.memo / React.PureComponent usage guide",
+    "date": "Oct 21, 2020"
+  },
+  {
+    "name": "React- useCallback Invalidates Too Often in Practice",
+    "url": "https://medium.com/welldone-software/react-usecallback-invalidates-too-often-in-practice-f398ee61f429",
+    "description": "What is issue #14099 in React’s repo and how it affects you?",
+    "date": "May 25, 2020"
+  },
   {
     "name": "Forced to Work From Home? Maybe It’s a Blessing in Disguise?",
     "url": "https://medium.com/welldone-software/forced-to-work-from-home-maybe-its-a-blessing-in-disguise-ee7a0b8707b6",

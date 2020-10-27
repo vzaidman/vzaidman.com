@@ -1,19 +1,26 @@
 <li class="list-item {{list-name}}">
   
   <h3 class="list-item-name">
-	<a href="{{url}}" target="_blank" rel="noopener" title="Publication {{url}}">
-	  {{name}}
-	</a>
+    <a href="{{url}}" target="_blank" rel="noopener" title="Publication {{url}}">
+      {{name}}
+    </a>
   </h3>
   —
   <p class="list-item-description">
-	{{description}}
+    {{description}}
+    
+    <if extra-link>
+      <br/><br/>
+      <a class="list-box-item-extra-link" href="{{extra-link-url}}" title={{name}} target="_blank" rel="noopener">
+        {{extra-link}}
+      </a>
+    </if>
   </p>
-  
+    
   <p class="list-item-date">
-	<time datetime="{{date}}">
-	  {{date}}
-	</time>
+    <time datetime="{{date}}">
+      {{date}}
+    </time>
   </p>
   
 </li>

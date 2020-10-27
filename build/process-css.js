@@ -66,11 +66,12 @@ module.exports = ({htmlContent, cssContent}) => {
 		return `class="${newClassNames}"${devClassNames}`
 	})
 
-	Object.keys(classNamesMapping).forEach(className => {
-		if(!classNamesInUse.includes(className)){
-			throw new Error(`The class name ${className} is not in use in the html.`)
-		}
-	})
+	const notInUseInHTML = Object.keys(classNamesMapping)
+		.every(className => !classNamesInUse.includes(className))
+
+	if (notInUseInHTML) {
+		throw new Error(`The class name ${className} is not in use in the html.`)
+	}
 
 	return htmlContent
 }
