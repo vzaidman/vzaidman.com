@@ -22,7 +22,7 @@
     "description": "The biggest platform for ordering food online outside of China.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
-    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook",
+    "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook|Jest",
     "role-short": "Full-Stack Developer, Tech Lead",
     "role-long": [
       "I was responsible for the technological aspect in re-building the 10Bis website from scratch with a team of 5 people.",
