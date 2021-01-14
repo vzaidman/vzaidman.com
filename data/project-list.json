@@ -17,18 +17,18 @@
     ]
   },
   {
-    "name": "Takeaway.com (originally 10bis.co.il)",
+    "name": "JustEatTakeaway.com (originally 10bis.co.il)",
     "url": "https://www.10bis.co.il/",
     "description": "The biggest platform for ordering food online outside of China.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook|Jest",
-    "role-short": "Full-Stack Developer, Tech Lead",
+    "role-short": "Web Architect / Tech Lead",
     "role-long": [
-      "I was responsible for the technological aspect in re-building the 10Bis website from scratch with a team of 5 people.",
+      "I was responsible for re-building the 10Bis website from scratch with a team of 5 people.",
       "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
-      "<br/><br/>Later, I was responsible for creating another website to manage 10Bis accounts.",
-      "<br/><br/>Currently, I'm leading the front-end of both sites and focus on improving their SEO and performance."
+      "<br/><br/>Later, I created other projects from scratch and started to work on other 10bis projects as well.",
+      "<br/><br/>Currently, I'm leading the front-end guild of around 7 people."
     ]
   },
   {
@@ -38,9 +38,9 @@
     "start-year": "2016",
     "end-year": "2019",
     "experience": "<list>Management|Agile|Git|Git flow|AWS|React|Redux|Docker|BitBucket Pipelines CI|TestCafe + Jest Testing|TypeScript|Css-Grids|Storybook",
-    "role-short": "Front-End Developer, Tech Lead",
+    "role-short": "Team Leader / Technical Leader",
     "role-long": [
-      "Initially I started off in charge of migrating PowToon's Web App from Full Flash to HTML5-React-Redux,",
+      "Initially I started off in charge of migrating PowToon's Web App from Flash to HTML5-React-Redux,",
       "essentially re-building the site from scratch.",
       "I created the infrastructure of the project and did the core graphical-mathematical work as well.<br/>",
       "Our team of around 8 people consisted of developers from WellDone Software and PowToon.",
@@ -55,7 +55,7 @@
     "start-year": "2017",
     "end-year": "2018",
     "experience": "<list>SEO|Performance|Management|Agile|Git|Next.js|React|Redux|Storybook",
-    "role-short": "Full-Stack Developer, Tech Lead",
+    "role-short": "Full-Stack Developer, Technical Leader",
     "role-long": [
       "I was responsible for building the website from zero with a team of 6 people."
     ]
@@ -69,7 +69,7 @@
     "experience": "<list>Agile|Web Services|Git|React|Redux|Sencha|Cordova|Android|iOS|Windows Phone|Microsoft Office Plugins|SharePoint|Various API's like Facebook, SalesForce, and Zendesk",
     "role-short": "Full-Stack Developer, Mobile Developer",
     "role-long": [
-      "In this very intense three year period, I had the opportunity to work on many of harmon.ie's products. We developed",
+      "In these very intense three year period, I had the opportunity to work on many of harmon.ie's products. We developed",
       "web apps, Microsoft Office Plug-ins, and several apps for Android, iOS, and Windows Phone using Cordova.<br/>",
       "During that time, I gained a lot of experience with various APIs by creating a cross-platform aggregation software",
       "that combines information from SharePoint, SalesForce, social networks, management platforms, and e-mail."
