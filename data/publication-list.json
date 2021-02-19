@@ -1,5 +1,11 @@
 [
   {
+    "name": "useCallback Might Be What You Meant By useRef & useEffect",
+    "url": "https://medium.com/welldone-software/usecallback-might-be-what-you-meant-by-useref-useeffect-773bc0278ae",
+    "description": "Sometimes we respond to React element mounts. The first instinct is to useRef & useEffect. But It’s wrong. What you really need is often useCallback.",
+    "date": "Jan 14, 2021"
+  },
+  {
     "name": "React — When Should Pure Components Be Used?",
     "url": "https://medium.com/welldone-software/react-when-should-pure-components-be-used-56c4428fe970",
     "description": "React.memo / React.PureComponent usage guide",
