@@ -2,7 +2,10 @@
   {
     "name": "The Open University of Israel",
     "url": "https://www.openu.ac.il/en/pages/default.aspx",
-    "description": "The Open University is open to anyone who wishes to study towards a bachelor's degree, without any prerequisites or screening process. However, the Open University still has high standards and demands academic achievements from its graduates.",
+    "description": [
+      "The Open University is open to anyone who wishes to study towards a bachelor's degree, without any prerequisites or screening process.",
+      "<br/><br/>However, the Open University has very high academic standards and its graduates are considered very prominent in their fields."
+    ],
     "start-year": "2010",
     "end-year": "2014",
     "experience": "",
