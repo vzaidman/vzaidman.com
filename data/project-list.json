@@ -2,7 +2,7 @@
   {
     "name": "Welldone Software Solutions Ltd.",
     "url": "https://welldone.software/",
-    "description": "A consulting, development and tutoring company.",
+    "description": "A web development and tutoring company.",
     "start-year": "2012",
     "end-year": "{{currentYear}}",
     "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React|Angular|Docker|iOS|Android|Windows Phone|Community Relations|Management|Sales",
@@ -17,18 +17,17 @@
     ]
   },
   {
-    "name": "JustEatTakeaway.com (originally 10bis.co.il)",
+    "name": "JustEatTakeAway.com (originally 10bis.co.il)",
     "url": "https://www.10bis.co.il/",
     "description": "The biggest platform for ordering food online outside of China.",
     "start-year": "2018",
     "end-year": "{{currentYear}}",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook|Jest",
-    "role-short": "Web Architect / Tech Lead",
+    "role-short": "Web Architect",
     "role-long": [
       "I was responsible for re-building the 10Bis website from scratch with a team of 5 people.",
       "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
-      "<br/><br/>Later, I created other projects from scratch and started to work on other 10bis projects as well.",
-      "<br/><br/>Currently, I'm leading the front-end guild of around 7 people."
+      "<br/><br/>Later, I lead the creation of several other projects while also leading the front-end guild of around 7 people."
     ]
   },
   {
@@ -46,18 +45,6 @@
       "Our team of around 8 people consisted of developers from WellDone Software and PowToon.",
       "I was responsible to tutor and train PowToon's staff in learning everything about HTML5-React-Redux.<br/>",
       "Later, I worked on the project's CI, testing, PowerPoint plug-in, and many other side projects."
-    ]
-  },
-  {
-    "name": "UENI",
-    "url": "https://ueni.com/",
-    "description": "A London based company that provides small businesses with an easy, inexpensive way to get online.",
-    "start-year": "2017",
-    "end-year": "2018",
-    "experience": "<list>SEO|Performance|Management|Agile|Git|Next.js|React|Redux|Storybook",
-    "role-short": "Full-Stack Developer, Technical Leader",
-    "role-long": [
-      "I was responsible for building the website from zero with a team of 6 people."
     ]
   },
   {
