@@ -5,13 +5,13 @@
     "description": "A web development and tutoring company.",
     "start-year": "2012",
     "end-year": "{{currentYear}}",
-    "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React|Angular|Docker|iOS|Android|Windows Phone|Community Relations|Management|Sales",
-    "role-short": "Web Architect, Senior Full-Stack Developer, Tech Lead, and Blogger",
+    "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React.js|Angular|Docker|iOS|Android|Windows Phone|Management|Sales",
+    "role-short": "Web Architect, React.js Expert, Senior Full-Stack Developer, Tech Leader, and Tech Publisher",
     "role-long": [
       "Up until around&nbsp;<time datetime='2016'>2016</time>,",
       "I worked on various short-term projects as a web and mobile ninja.",
       "<br/>",
-      "Since&nbsp;<time datetime='2016'>2016</time>, I have been working as a Tech Lead and a Team Leader",
+      "Since&nbsp;<time datetime='2016'>2016</time>, I have been working as a Tech Leader and a Team Leader",
       "in several projects of the company.<br/>I also",
       "research, lecture, and blog about web technology on behalf of the company."
     ]
