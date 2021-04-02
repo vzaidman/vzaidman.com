@@ -6,14 +6,13 @@
     "start-year": "2012",
     "end-year": "{{currentYear}}",
     "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React.js|Angular|Docker|iOS|Android|Windows Phone|Management|Sales",
-    "role-short": "Web Architect, React.js Expert, Senior Full-Stack Developer, Tech Leader, and Tech Publisher",
+    "role-short": "Software Architect, React.js Expert, Technical Publisher",
     "role-long": [
-      "Up until around&nbsp;<time datetime='2016'>2016</time>,",
-      "I worked on various short-term projects as a web and mobile ninja.",
-      "<br/>",
-      "Since&nbsp;<time datetime='2016'>2016</time>, I have been working as a Tech Leader and a Team Leader",
-      "in several projects of the company.<br/>I also",
-      "research, lecture, and blog about web technology on behalf of the company."
+      "I'm a Software Architect with broad experience in hands-on coding,",
+      "architecture design, helping C-suite management make good",
+      "decisions, and leading teams to success.",
+      "I'm also a React.js expert with open-source contributions and",
+      "publications about web development."
     ]
   },
   {
@@ -23,7 +22,7 @@
     "start-year": "2018",
     "end-year": "{{currentYear}}",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook|Jest",
-    "role-short": "Web Architect",
+    "role-short": "Software Architect",
     "role-long": [
       "I was responsible for re-building the 10Bis website from scratch with a team of 5 people.",
       "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
