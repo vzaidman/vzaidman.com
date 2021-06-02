@@ -1,5 +1,17 @@
 [
   {
+    "name": "Debugging React performance issues with Why Did You Render",
+    "url": "https://blog.logrocket.com/debugging-react-performance-issues-with-why-did-you-render/",
+    "description": "This demonstration shows how to detect and resolve performance issues in React using the library Why Did You Render.",
+    "date": "Jun 02, 2021"
+  },
+  {
+    "name": "Jest — How To Mock a Function Call Inside a Module",
+    "url": "https://medium.com/welldone-software/jest-how-to-mock-a-function-call-inside-a-module-21c05c57a39f",
+    "description": "Mocking function calls within a module",
+    "date": "May 03, 2021"
+  },
+  {
     "name": "useCallback Might Be What You Meant By useRef & useEffect",
     "url": "https://medium.com/welldone-software/usecallback-might-be-what-you-meant-by-useref-useeffect-773bc0278ae",
     "description": "Sometimes we respond to React element mounts. The first instinct is to useRef & useEffect. But It’s wrong. What you really need is often useCallback.",
@@ -75,7 +87,7 @@
     "name": "Track Redundant React Hooks Re-Renders With “Why Did You Render” Version 3",
     "url": "https://medium.com/welldone-software/track-redundant-re-renders-that-caused-by-hooks-with-why-did-you-render-version-3-504468deb653",
     "description": "@welldone-software/why-did-you-render version 3 is released with many features, including tracking of React hooks issues.",
-    "date": "Apr 5, 2019"
+    "date": "Apr 05, 2019"
   },
   {
     "name": "An Overview of JavaScript Testing in 2019",
@@ -111,13 +123,13 @@
     "name": "An Overview of JavaScript Testing in 2018",
     "url": "https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3",
     "description": "TL;DR; Use Jest for unit and integration tests and TestCafe for UI tests.",
-    "date": "Feb 9, 2018"
+    "date": "Feb 09, 2018"
   },
   {
     "name": "redux-toolbelt: Supercharge Your Redux",
     "url": "https://medium.com/welldone-software/redux-toolbelt-supercharge-your-redux-ec16e704fe93",
     "description": "10x less code, 10x more redux power - part 2 - the basics.",
-    "date": "Feb 3, 2018"
+    "date": "Feb 03, 2018"
   },
   {
     "name": "An Overview of Developer Tools for Windows",
@@ -141,12 +153,12 @@
     "name": "How to Get Into the Web Development Field?",
     "url": "https://medium.com/welldone-software/how-to-get-into-the-web-development-field-c21f270fa1c1",
     "description": "tl;dr build a website and understand as much as you can about it. Here is a suggestion for something you can begin with.",
-    "date": "Mar 3, 2017"
+    "date": "Mar 03, 2017"
   },
   {
     "name": "How Can Aspiring Programmers Improve Their Chances to Find a Good Job?",
     "url": "https://medium.com/welldone-software/how-can-aspiring-programmers-improve-their-chances-to-find-a-good-job-ca644e3c30b3",
     "description": "Two weeks of self-study are enough to give an aspiring programmer an edge over others competing for the same job.",
-    "date": "Mar 3, 2017"
+    "date": "Mar 03, 2017"
   }
 ]
