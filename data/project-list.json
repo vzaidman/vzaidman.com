@@ -4,7 +4,7 @@
     "url": "https://welldone.software/",
     "description": "A web development and tutoring company.",
     "start-year": "2012",
-    "end-year": "{{currentYear}}",
+    "end-year": "2021",
     "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React.js|Angular|Docker|iOS|Android|Windows Phone|Management|Sales",
     "role-short": "Software Architect, React.js Expert, Technical Publisher",
     "role-long": [
@@ -16,11 +16,11 @@
     ]
   },
   {
-    "name": "JustEatTakeAway.com (originally 10bis.co.il)",
+    "name": "Just Eat TakeAway.com",
     "url": "https://www.10bis.co.il/",
     "description": "The biggest platform for ordering food online outside of China.",
     "start-year": "2018",
-    "end-year": "{{currentYear}}",
+    "end-year": "2021",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook|Jest",
     "role-short": "Software Architect",
     "role-long": [
