@@ -8,7 +8,7 @@
     "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React.js|Angular|Docker|iOS|Android|Windows Phone|Management|Sales",
     "role-short": "Software Architect, React.js Expert, Technical Publisher",
     "role-long": [
-      "I'm a Software Architect with broad experience in hands-on coding,",
+      "Software Architect with broad experience in hands-on coding,",
       "architecture design, helping C-suite management make good",
       "decisions, and leading teams to success.",
       "I'm also a React.js expert with open-source contributions and",
@@ -18,13 +18,13 @@
   {
     "name": "Just Eat TakeAway.com",
     "url": "https://www.10bis.co.il/",
-    "description": "The biggest platform for ordering food online outside of China.",
+    "description": "The biggest platform for ordering food online.",
     "start-year": "2018",
     "end-year": "2021",
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook|Jest",
     "role-short": "Software Architect",
     "role-long": [
-      "I was responsible for re-building the 10Bis website from scratch with a team of 5 people.",
+      "Was responsible for re-building the&nbsp;<a href='http://www.10bis.co.il' target='_blank' rel='noopener' style='color:revert'><span>www.10Bis.co.il website</span></a>&nbsp;from scratch with a team of 5 people.",
       "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
       "<br/><br/>Later, I lead the creation of several other projects while also leading the front-end guild of around 7 people."
     ]
