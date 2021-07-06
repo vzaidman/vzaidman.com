@@ -1,5 +1,14 @@
 [
   {
+    "name": "JSJ 490: Mastering Browser Caching with Vitali Zaidman",
+    "url": "https://devchat.tv/js-jabber/mastering-browser-caching-with-vitali-zaidman-jsj-490/",
+    "description": [
+      "The Jabber panel along with Vitali Zaidman jump in and discuss how your browser cache works,",
+      "what the standard is, and what you can expect when you're trying to take advantage of the performance characteristics of your users' browsers."
+    ],
+    "date": "Jun 29, 2021"
+  },
+  {
     "name": "RRU 087: The why-did-you-render Library and React Performance with Vitali Zaidman",
     "url": "https://devchat.tv/react-round-up/rru-087-the-why-did-you-render-library-and-react-performance-with-vitali-zaidman/",
     "description": [
