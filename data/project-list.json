@@ -1,5 +1,17 @@
 [
   {
+    "name": "Meta",
+    "url": "https://about.facebook.com/meta/",
+    "description": "Building the Metaverse.",
+    "start-year": "2021",
+    "end-year": "present",
+    "experience": " ",
+    "role-short": "Software Engineer",
+    "role-long": [
+      "Working on a variety of stuff as a generalist"
+    ]
+  },
+  {
     "name": "Welldone Software Solutions Ltd.",
     "url": "https://welldone.software/",
     "description": "A web development and tutoring company.",
