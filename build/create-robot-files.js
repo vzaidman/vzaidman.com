@@ -16,12 +16,6 @@ sitemap: https://vzaidman.com/Sitemap.xml
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
-      <url>
-      <loc>https://vzaidman.com/vitali-zaidman-cv.pdf</loc>
-      <lastmod>${new Date().toISOString()}</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
 </urlset>`
 	)
 }
