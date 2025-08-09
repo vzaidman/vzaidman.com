@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Vitali Zaidman's Official Website",
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "scripts": {
     "build": "node build",
