@@ -8,6 +8,7 @@ const template = require('./build/process-list-template')
 html = template('social-media-link-item')('social-media-profiles-list')(html)
 html = template('seo-tags')('seo-tags')(html)
 html = template('detailed-list-item')('education-list')(html)
+html = template('detailed-list-item')('volunteering-list')(html)
 html = template('detailed-list-item')('project-list')(html)
 
 const publicationListGenerator = template('publication-list-item')

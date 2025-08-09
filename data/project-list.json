@@ -1,14 +1,14 @@
 [
   {
     "name": "Meta",
-    "url": "https://about.facebook.com/meta/",
-    "description": "Building the Metaverse.",
+    "url": "https://www.meta.com/",
+    "description": "Bringing People Closer Together.",
     "start-year": "2021",
     "end-year": "present",
-    "experience": " ",
+    "experience": "",
     "role-short": "Software Engineer",
     "role-long": [
-      "Working on a variety of stuff as a generalist"
+      "Software Engineer on the React team, developing React and React Native."
     ]
   },
   {
@@ -20,11 +20,8 @@
     "experience": "<list>SCRUM|Git|SEO|JavaScript|Node.js|React.js|Angular|Docker|iOS|Android|Windows Phone|Management|Sales",
     "role-short": "Software Architect, React.js Expert, Technical Publisher",
     "role-long": [
-      "Software Architect with broad experience in hands-on coding,",
-      "architecture design, helping C-suite management make good",
-      "decisions, and leading teams to success.",
-      "I'm also a React.js expert with open-source contributions and",
-      "publications about web development."
+      "Software Architect with broad experience in hands-on coding, architecture design, helping C-suite management make good decisions, and leading teams to success.",
+      "I'm also a React.js expert with open-source contributions and publications about web development."
     ]
   },
   {
@@ -36,9 +33,9 @@
     "experience": "<list>SEO|Management|Agile|Git|Next.js|React|Redux|Docker|Cypress Testing|Storybook|Jest",
     "role-short": "Software Architect",
     "role-long": [
-      "Was responsible for re-building the&nbsp;<a href='http://www.10bis.co.il' target='_blank' rel='noopener' style='color:revert'><span>www.10Bis.co.il website</span></a>&nbsp;from scratch with a team of 5 people.",
-      "We did it in a very short time, even though some people from the team were unfamiliar with Next.js and React.",
-      "<br/><br/>Later, I lead the creation of several other projects while also leading the front-end guild of around 7 people."
+      "Was responsible for re-building the&nbsp;<a href='http://www.10bis.co.il' target='_blank' rel='noopener' style='color:revert'><span>10bis.co.il website</span></a>&nbsp;from scratch with a team of 5 people.",
+      "We did that in a short time, despite some team member being unfamiliar with Next.js and React.",
+      "<br/><br/>Besides, lead the creation of several other projects from scratch and leading the front-end guild of around 7 people."
     ]
   },
   {
@@ -52,10 +49,10 @@
     "role-long": [
       "Initially I started off in charge of migrating PowToon's Web App from Flash to HTML5-React-Redux,",
       "essentially re-building the site from scratch.",
-      "I created the infrastructure of the project and did the core graphical-mathematical work as well.<br/>",
-      "Our team of around 8 people consisted of developers from WellDone Software and PowToon.",
-      "I was responsible to tutor and train PowToon's staff in learning everything about HTML5-React-Redux.<br/>",
-      "Later, I worked on the project's CI, testing, PowerPoint plug-in, and many other side projects."
+      "I've created the infrastructure of the project and built the core graphical-mathematical foundation for the video editor.<br/>",
+      "Responsible for a team of around 8 people, ",
+      "I was responsible for tutoring and training team members unfamiliar with HTML5-React-Redux.<br/>",
+      "Besides, I worked on the project's CI, testing, PowerPoint plug-in, and many other side projects."
     ]
   },
   {
@@ -68,9 +65,9 @@
     "role-short": "Full-Stack Developer, Mobile Developer",
     "role-long": [
       "In these very intense three year period, I had the opportunity to work on many of harmon.ie's products. We developed",
-      "web apps, Microsoft Office Plug-ins, and several apps for Android, iOS, and Windows Phone using Cordova.<br/>",
-      "During that time, I gained a lot of experience with various APIs by creating a cross-platform aggregation software",
-      "that combines information from SharePoint, SalesForce, social networks, management platforms, and e-mail."
+      "web apps, Microsoft Office plug-ins, and several apps for Android, iOS, and Windows Phone using Cordova.<br/>",
+      "During that time, I gained a lot of experience with various APIs by creating a cross-platform worker activity aggregation software",
+      "that combined information from SharePoint, SalesForce, social networks, management platforms, and e-mail."
     ]
   }
 ]

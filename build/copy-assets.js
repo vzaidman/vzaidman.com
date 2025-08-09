@@ -3,7 +3,7 @@ const path = require('path')
 
 const mkdir = dir => {
 	try {
-		fs.mkdirSync(dir, 0755);
+		fs.mkdirSync(dir, 0o755);
 	} catch(e) {
 		if(e.code != "EEXIST") {
 			throw e;

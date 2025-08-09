@@ -124,6 +124,10 @@ br {
   margin-bottom: 0.25em;
 }
 
+.volunteering-list .list-item-name {
+  color: #761181;
+}
+
 .education-list .list-item-name {
   color: #727402;
 }
@@ -133,7 +137,7 @@ br {
 }
 
 .podcast-list .list-item-name {
-  color: #c700ad;
+  color: #e026c7;
 }
 
 .publication-list .list-item-name {
@@ -197,7 +201,6 @@ br {
   padding: 1em;
   font-weight: lighter;
   font-size: 0.75em;
-  font-style: italic;
 }
 
 @media print, (min-width: 600px) {

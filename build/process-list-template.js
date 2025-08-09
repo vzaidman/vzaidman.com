@@ -1,7 +1,5 @@
 const fs = require('fs')
 
-let currentClassNameCharCode = 97
-
 module.exports = templateName => dataName => html => {
 	const listItemData = JSON.parse(fs.readFileSync(`data/${dataName}.json`).toString())
 	const listItemTemplate = fs.readFileSync(`templates/${templateName}.html`).toString()

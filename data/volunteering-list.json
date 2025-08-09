@@ -1,0 +1,27 @@
+[
+  {
+    "name": "STEM Ambassadors",
+    "url": "https://www.stem.org.uk/stem-ambassadors",
+    "description": "Volunteers from a wide range of science, technology, engineering and mathematics related jobs across the UK.",
+    "start-year": "2024",
+    "end-year": "present",
+    "experience": "",
+    "role-short": "Educator",
+    "role-long": [
+      "Passionate about inspiring the next generation! Through volunteering, I introduce children to the world of software engineering—helping them discover their potential in a field that offers both meaningful work and financial stability. My goal is to spark curiosity, build confidence, and show them that a rewarding tech career could be within their reach."
+    ]
+  },
+  {
+    "name": "Repair Café",
+    "url": "https://haringeyfixers.org/",
+    "description": "",
+    "start-year": "2024",
+    "end-year": "present",
+    "experience": "",
+    "role-short": "Fixer",
+    "role-long": [
+      "Committed to sustainability and community support! As a volunteer fixer, I help repair electrical devices for free, reducing landfill waste and promoting a circular economy.",
+      "By extending the life of everyday items, I contribute to a greener environment while supporting people in my community."
+    ]
+  }
+]
